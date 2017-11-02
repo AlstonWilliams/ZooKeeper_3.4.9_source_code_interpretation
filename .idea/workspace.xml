@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f863b4a4-83ea-4833-8358-67bf6c7898a7" name="Default" comment="" />
+    <ignored path="zookeeper-3.4.9.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="zookeeper-3.4.9" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="QuorumPeerMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3624">
+              <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuorumPeer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12456">
+              <caret line="586" column="23" selection-start-line="586" selection-start-column="23" selection-end-line="586" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#7764#7765#0" expanded="false" />
+                <element signature="e#7798#7799#0" expanded="false" />
+                <element signature="e#8364#8365#0" expanded="false" />
+                <element signature="e#8409#8410#0" expanded="false" />
+                <element signature="e#8675#8676#0" expanded="false" />
+                <element signature="e#8702#8703#0" expanded="false" />
+                <element signature="e#8979#8980#0" expanded="false" />
+                <element signature="e#9013#9014#0" expanded="false" />
+                <element signature="e#9074#9075#0" expanded="false" />
+                <element signature="e#9105#9106#0" expanded="false" />
+                <element signature="e#9311#9312#0" expanded="false" />
+                <element signature="e#9337#9338#0" expanded="false" />
+                <element signature="e#11605#11606#0" expanded="false" />
+                <element signature="e#11653#11654#0" expanded="false" />
+                <element signature="e#14729#14730#0" expanded="false" />
+                <element signature="e#14759#14760#0" expanded="false" />
+                <element signature="e#14812#14813#0" expanded="false" />
+                <element signature="e#14840#14841#0" expanded="false" />
+                <element signature="e#14966#14967#0" expanded="false" />
+                <element signature="e#15001#15002#0" expanded="false" />
+                <element signature="e#16851#16852#0" expanded="false" />
+                <element signature="e#16885#16886#0" expanded="false" />
+                <element signature="e#27263#27264#0" expanded="false" />
+                <element signature="e#27295#27296#0" expanded="false" />
+                <element signature="e#27363#27364#0" expanded="false" />
+                <element signature="e#27399#27400#0" expanded="false" />
+                <element signature="e#27471#27472#0" expanded="false" />
+                <element signature="e#27507#27508#0" expanded="false" />
+                <element signature="e#37542#37543#0" expanded="false" />
+                <element signature="e#37610#37611#0" expanded="false" />
+                <element signature="e#38968#38969#0" expanded="false" />
+                <element signature="e#39024#39025#0" expanded="false" />
+                <element signature="e#40342#40343#0" expanded="false" />
+                <element signature="e#40369#40370#0" expanded="false" />
+                <element signature="e#40462#40463#0" expanded="false" />
+                <element signature="e#40494#40495#0" expanded="false" />
+                <element signature="e#40593#40594#0" expanded="false" />
+                <element signature="e#40624#40625#0" expanded="false" />
+                <element signature="e#41204#41205#0" expanded="false" />
+                <element signature="e#41285#41286#0" expanded="false" />
+                <element signature="e#41574#41575#0" expanded="false" />
+                <element signature="e#41656#41657#0" expanded="false" />
+                <element signature="e#41981#41982#0" expanded="false" />
+                <element signature="e#42013#42014#0" expanded="false" />
+                <element signature="e#42320#42321#0" expanded="false" />
+                <element signature="e#42347#42348#0" expanded="false" />
+                <element signature="e#42569#42570#0" expanded="false" />
+                <element signature="e#42616#42617#0" expanded="false" />
+                <element signature="e#42725#42726#0" expanded="false" />
+                <element signature="e#42759#42760#0" expanded="false" />
+                <element signature="e#42841#42842#0" expanded="false" />
+                <element signature="e#42873#42874#0" expanded="false" />
+                <element signature="e#42961#42962#0" expanded="false" />
+                <element signature="e#43003#43004#0" expanded="false" />
+                <element signature="e#43675#43676#0" expanded="false" />
+                <element signature="e#43721#43722#0" expanded="false" />
+                <element signature="e#43803#43804#0" expanded="false" />
+                <element signature="e#43838#43839#0" expanded="false" />
+                <element signature="e#43937#43938#0" expanded="false" />
+                <element signature="e#43985#43986#0" expanded="false" />
+                <element signature="e#44033#44034#0" expanded="false" />
+                <element signature="e#44076#44077#0" expanded="false" />
+                <element signature="e#44262#44263#0" expanded="false" />
+                <element signature="e#44296#44297#0" expanded="false" />
+                <element signature="e#44361#44362#0" expanded="false" />
+                <element signature="e#44407#44408#0" expanded="false" />
+                <element signature="e#44477#44478#0" expanded="false" />
+                <element signature="e#44523#44524#0" expanded="false" />
+                <element signature="e#44557#44558#0" expanded="false" />
+                <element signature="e#44606#44607#0" expanded="false" />
+                <element signature="e#44734#44735#0" expanded="false" />
+                <element signature="e#44775#44776#0" expanded="false" />
+                <element signature="e#44824#44825#0" expanded="false" />
+                <element signature="e#44862#44863#0" expanded="false" />
+                <element signature="e#44992#44993#0" expanded="false" />
+                <element signature="e#45028#45029#0" expanded="false" />
+                <element signature="e#45075#45076#0" expanded="false" />
+                <element signature="e#45113#45114#0" expanded="false" />
+                <element signature="e#45147#45148#0" expanded="false" />
+                <element signature="e#45177#45178#0" expanded="false" />
+                <element signature="e#45287#45288#0" expanded="false" />
+                <element signature="e#45313#45314#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NOTICE.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NOTICE.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="42">
+                <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Leader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22416">
+              <caret line="990" column="14" selection-start-line="990" selection-start-column="14" selection-end-line="990" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2488#2489#0" expanded="false" />
+                <element signature="e#2578#2579#0" expanded="false" />
+                <element signature="e#4526#4527#0" expanded="false" />
+                <element signature="e#4568#4569#0" expanded="false" />
+                <element signature="e#9317#9318#0" expanded="false" />
+                <element signature="e#9398#9399#0" expanded="false" />
+                <element signature="e#10710#10711#0" expanded="false" />
+                <element signature="e#10745#10746#0" expanded="false" />
+                <element signature="e#24408#24409#0" expanded="false" />
+                <element signature="e#24471#24472#0" expanded="false" />
+                <element signature="e#24627#24628#0" expanded="false" />
+                <element signature="e#24665#24666#0" expanded="false" />
+                <element signature="e#37495#37496#0" expanded="false" />
+                <element signature="e#37552#37553#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZooKeeperServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20664">
+              <caret line="975" column="16" selection-start-line="975" selection-start-column="16" selection-end-line="975" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3272#3273#0" expanded="false" />
+                <element signature="e#3317#3318#0" expanded="false" />
+                <element signature="e#4820#4821#0" expanded="false" />
+                <element signature="e#4857#4858#0" expanded="false" />
+                <element signature="e#6816#6817#0" expanded="false" />
+                <element signature="e#6850#6851#0" expanded="false" />
+                <element signature="e#8615#8616#0" expanded="false" />
+                <element signature="e#8647#8648#0" expanded="false" />
+                <element signature="e#8788#8789#0" expanded="false" />
+                <element signature="e#8819#8820#0" expanded="false" />
+                <element signature="e#11122#11123#0" expanded="false" />
+                <element signature="e#11156#11157#0" expanded="false" />
+                <element signature="e#11182#11183#0" expanded="false" />
+                <element signature="e#11228#11229#0" expanded="false" />
+                <element signature="e#11266#11267#0" expanded="false" />
+                <element signature="e#11297#11298#0" expanded="false" />
+                <element signature="e#11319#11320#0" expanded="false" />
+                <element signature="e#11368#11369#0" expanded="false" />
+                <element signature="e#11484#11485#0" expanded="false" />
+                <element signature="e#11566#11567#0" expanded="false" />
+                <element signature="e#12755#12756#0" expanded="false" />
+                <element signature="e#12789#12790#0" expanded="false" />
+                <element signature="e#15097#15098#0" expanded="false" />
+                <element signature="e#15128#15129#0" expanded="false" />
+                <element signature="e#15372#15373#0" expanded="false" />
+                <element signature="e#15432#15433#0" expanded="false" />
+                <element signature="e#16981#16982#0" expanded="false" />
+                <element signature="e#17050#17051#0" expanded="false" />
+                <element signature="e#17084#17085#0" expanded="false" />
+                <element signature="e#17129#17130#0" expanded="false" />
+                <element signature="e#18550#18551#0" expanded="false" />
+                <element signature="e#18601#18602#0" expanded="false" />
+                <element signature="e#18635#18636#0" expanded="false" />
+                <element signature="e#18686#18687#0" expanded="false" />
+                <element signature="e#18719#18720#0" expanded="false" />
+                <element signature="e#18765#18766#0" expanded="false" />
+                <element signature="e#23886#23887#0" expanded="false" />
+                <element signature="e#23935#23936#0" expanded="false" />
+                <element signature="e#23968#23969#0" expanded="false" />
+                <element signature="e#23992#23993#0" expanded="false" />
+                <element signature="e#26929#26930#0" expanded="false" />
+                <element signature="e#26972#26973#0" expanded="false" />
+                <element signature="e#27027#27028#0" expanded="false" />
+                <element signature="e#27067#27068#0" expanded="false" />
+                <element signature="e#27187#27188#0" expanded="false" />
+                <element signature="e#27245#27246#0" expanded="false" />
+                <element signature="e#27405#27406#0" expanded="false" />
+                <element signature="e#27442#27443#0" expanded="false" />
+                <element signature="e#27779#27780#0" expanded="false" />
+                <element signature="e#27810#27811#0" expanded="false" />
+                <element signature="e#27985#27986#0" expanded="false" />
+                <element signature="e#28066#28067#0" expanded="false" />
+                <element signature="e#28253#28254#0" expanded="false" />
+                <element signature="e#28335#28336#0" expanded="false" />
+                <element signature="e#28515#28516#0" expanded="false" />
+                <element signature="e#28603#28604#0" expanded="false" />
+                <element signature="e#28662#28663#0" expanded="false" />
+                <element signature="e#28705#28706#0" expanded="false" />
+                <element signature="e#28757#28758#0" expanded="false" />
+                <element signature="e#28798#28799#0" expanded="false" />
+                <element signature="e#28830#28831#0" expanded="false" />
+                <element signature="e#28865#28866#0" expanded="false" />
+                <element signature="e#28920#28921#0" expanded="false" />
+                <element signature="e#28961#28962#0" expanded="false" />
+                <element signature="e#29114#29115#0" expanded="false" />
+                <element signature="e#29179#29180#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZKDatabase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZKDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3816">
+              <caret line="223" column="28" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3863#3864#0" expanded="false" />
+                <element signature="e#3897#3898#0" expanded="false" />
+                <element signature="e#4687#4688#0" expanded="false" />
+                <element signature="e#4723#4724#0" expanded="false" />
+                <element signature="e#4879#4880#0" expanded="false" />
+                <element signature="e#4917#4918#0" expanded="false" />
+                <element signature="e#5134#5135#0" expanded="false" />
+                <element signature="e#5172#5173#0" expanded="false" />
+                <element signature="e#5486#5487#0" expanded="false" />
+                <element signature="e#5516#5517#0" expanded="false" />
+                <element signature="e#6157#6158#0" expanded="false" />
+                <element signature="e#6206#6207#0" expanded="false" />
+                <element signature="e#6365#6366#0" expanded="false" />
+                <element signature="e#6405#6406#0" expanded="false" />
+                <element signature="e#6551#6552#0" expanded="false" />
+                <element signature="e#6596#6597#0" expanded="false" />
+                <element signature="e#6775#6776#0" expanded="false" />
+                <element signature="e#6818#6819#0" expanded="false" />
+                <element signature="e#9204#9205#0" expanded="false" />
+                <element signature="e#9245#9246#0" expanded="false" />
+                <element signature="e#9402#9403#0" expanded="false" />
+                <element signature="e#9443#9444#0" expanded="false" />
+                <element signature="e#9669#9670#0" expanded="false" />
+                <element signature="e#9722#9723#0" expanded="false" />
+                <element signature="e#9901#9902#0" expanded="false" />
+                <element signature="e#9949#9950#0" expanded="false" />
+                <element signature="e#10078#10079#0" expanded="false" />
+                <element signature="e#10124#10125#0" expanded="false" />
+                <element signature="e#10351#10352#0" expanded="false" />
+                <element signature="e#10407#10408#0" expanded="false" />
+                <element signature="e#10580#10581#0" expanded="false" />
+                <element signature="e#10629#10630#0" expanded="false" />
+                <element signature="e#10945#10946#0" expanded="false" />
+                <element signature="e#10997#10998#0" expanded="false" />
+                <element signature="e#11591#11592#0" expanded="false" />
+                <element signature="e#11634#11635#0" expanded="false" />
+                <element signature="e#13686#13687#0" expanded="false" />
+                <element signature="e#13737#13738#0" expanded="false" />
+                <element signature="e#13868#13869#0" expanded="false" />
+                <element signature="e#13914#13915#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileTxnSnapLog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3048">
+              <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3537#3538#0" expanded="false" />
+                <element signature="e#3572#3573#0" expanded="false" />
+                <element signature="e#3714#3715#0" expanded="false" />
+                <element signature="e#3749#3750#0" expanded="false" />
+                <element signature="e#10801#10802#0" expanded="false" />
+                <element signature="e#10873#10874#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileSnap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2214#2215#0" expanded="false" />
+                <element signature="e#2252#2253#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Recv</find>
+      <find>Listener</find>
+      <find>append</find>
+      <find>FileTx</find>
+      <find>logFactory</find>
+      <find>dese</find>
+      <find>des</find>
+      <find>serial</find>
+      <find>dbid</find>
+      <find>database</find>
+      <find>deserialize</find>
+      <find>serialize</find>
+      <find>QuorumPeerConfig</find>
+      <find>parse</find>
+      <find>PeerState</find>
+      <find>peerState</find>
+      <find>startElec</find>
+      <find>start</find>
+      <find>startLeader</find>
+      <find>outloop</find>
+      <find>outerLoop</find>
+      <find>pendingSyncs</find>
+      <find>sync</find>
+      <find>process</find>
+      <find>next</find>
+      <find>setup</find>
+      <find>setupRequestProcessors</find>
+      <find>commit</find>
+      <find>run</find>
+      <find>lookForLeader</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/tdd-java-ch03-tic-tac-toe" value="2949620332374" />
+        <entry key="$USER_HOME$/IdeaProjects/tdd-java-ch07-books-store" value="2954282720152" />
+        <entry key="$USER_HOME$/TestCode/tdd-java-ch06-tic-tac-toe-mongo" value="2953047829934" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/WatchManager.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/DataTree.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerStats.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServerListenerImpl.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/DatadirCleanupManager.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/util/TestSuperClass.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumCnxManager.java" />
+        <option value="$PROJECT_DIR$/conf/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/jute/BinaryInputArchive.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/Util.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZKDatabase.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/util/RedStringUtil.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Learner.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/SyncRequestProcessor.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Observer.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/ObserverZooKeeperServer.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Follower.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/FollowerZooKeeperServer.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Leader.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/FastLeaderElection.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServerMain.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxnFactory.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerConfig.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerMain.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxnFactory.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../copycat" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestSuperClass">
+    <configuration default="false" name="TestSuperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.apache.zookeeper.server.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.apache.zookeeper.server.util.TestSuperClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zookeeper-3.4.9" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zookeeper-3.4.9" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OdpsJavaConfigurationType" factoryName="MaxCompute Java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <odpsJavaType />
+      <odpsProjectName />
+      <tableName />
+      <tableColumns />
+      <tablePartition />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.TestSuperClass" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestSuperClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f863b4a4-83ea-4833-8358-67bf6c7898a7" name="Default" comment="" />
+      <created>1500470999704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500470999704</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3541167" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933652" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940048" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933652" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940048" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3541167" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/LeaderZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/FollowerZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2328">
+          <caret line="128" column="29" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/SessionTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Learner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11088">
+          <caret line="512" column="40" selection-start-line="512" selection-start-column="40" selection-end-line="512" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/packages/deb/zookeeper.control/postinst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c/src/zk_hashtable.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipes/election/src/java/org/apache/zookeeper/recipes/leader/LeaderElectionSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2904">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/generated/org/apache/zookeeper/proto/ExistsRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12336">
+          <caret line="569" column="12" selection-start-line="569" selection-start-column="12" selection-end-line="569" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/FastLeaderElection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23928">
+          <caret line="1038" column="49" selection-start-line="1038" selection-start-column="49" selection-end-line="1038" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/auth/SaslServerCallbackHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ConnectionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NettyServerCnxnFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServerListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServerShutdownHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zookeeper-3.4.9.jar!/org/apache/zookeeper/data/StatPersisted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/DataTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4104">
+          <caret line="239" column="23" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zookeeper-3.4.9.jar!/org/apache/zookeeper/proto/RequestHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zookeeper-3.4.9.jar!/org/apache/zookeeper/proto/ConnectRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/jmx/ManagedUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/flexible/QuorumMaj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/flexible/QuorumHierarchical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/ReadOnlyZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Follower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1094">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="352" column="43" selection-start-line="352" selection-start-column="43" selection-end-line="352" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumCnxManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/DatadirCleanupManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/SessionTrackerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="195" column="13" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxnFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxnFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="251" column="32" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7728">
+          <caret line="371" column="28" selection-start-line="371" selection-start-column="17" selection-end-line="371" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20664">
+          <caret line="975" column="16" selection-start-line="975" selection-start-column="16" selection-end-line="975" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3272#3273#0" expanded="false" />
+            <element signature="e#3317#3318#0" expanded="false" />
+            <element signature="e#4820#4821#0" expanded="false" />
+            <element signature="e#4857#4858#0" expanded="false" />
+            <element signature="e#6816#6817#0" expanded="false" />
+            <element signature="e#6850#6851#0" expanded="false" />
+            <element signature="e#8615#8616#0" expanded="false" />
+            <element signature="e#8647#8648#0" expanded="false" />
+            <element signature="e#8788#8789#0" expanded="false" />
+            <element signature="e#8819#8820#0" expanded="false" />
+            <element signature="e#11122#11123#0" expanded="false" />
+            <element signature="e#11156#11157#0" expanded="false" />
+            <element signature="e#11182#11183#0" expanded="false" />
+            <element signature="e#11228#11229#0" expanded="false" />
+            <element signature="e#11266#11267#0" expanded="false" />
+            <element signature="e#11297#11298#0" expanded="false" />
+            <element signature="e#11319#11320#0" expanded="false" />
+            <element signature="e#11368#11369#0" expanded="false" />
+            <element signature="e#11484#11485#0" expanded="false" />
+            <element signature="e#11566#11567#0" expanded="false" />
+            <element signature="e#12755#12756#0" expanded="false" />
+            <element signature="e#12789#12790#0" expanded="false" />
+            <element signature="e#15097#15098#0" expanded="false" />
+            <element signature="e#15128#15129#0" expanded="false" />
+            <element signature="e#15372#15373#0" expanded="false" />
+            <element signature="e#15432#15433#0" expanded="false" />
+            <element signature="e#16981#16982#0" expanded="false" />
+            <element signature="e#17050#17051#0" expanded="false" />
+            <element signature="e#17084#17085#0" expanded="false" />
+            <element signature="e#17129#17130#0" expanded="false" />
+            <element signature="e#18550#18551#0" expanded="false" />
+            <element signature="e#18601#18602#0" expanded="false" />
+            <element signature="e#18635#18636#0" expanded="false" />
+            <element signature="e#18686#18687#0" expanded="false" />
+            <element signature="e#18719#18720#0" expanded="false" />
+            <element signature="e#18765#18766#0" expanded="false" />
+            <element signature="e#23886#23887#0" expanded="false" />
+            <element signature="e#23935#23936#0" expanded="false" />
+            <element signature="e#23968#23969#0" expanded="false" />
+            <element signature="e#23992#23993#0" expanded="false" />
+            <element signature="e#26929#26930#0" expanded="false" />
+            <element signature="e#26972#26973#0" expanded="false" />
+            <element signature="e#27027#27028#0" expanded="false" />
+            <element signature="e#27067#27068#0" expanded="false" />
+            <element signature="e#27187#27188#0" expanded="false" />
+            <element signature="e#27245#27246#0" expanded="false" />
+            <element signature="e#27405#27406#0" expanded="false" />
+            <element signature="e#27442#27443#0" expanded="false" />
+            <element signature="e#27779#27780#0" expanded="false" />
+            <element signature="e#27810#27811#0" expanded="false" />
+            <element signature="e#27985#27986#0" expanded="false" />
+            <element signature="e#28066#28067#0" expanded="false" />
+            <element signature="e#28253#28254#0" expanded="false" />
+            <element signature="e#28335#28336#0" expanded="false" />
+            <element signature="e#28515#28516#0" expanded="false" />
+            <element signature="e#28603#28604#0" expanded="false" />
+            <element signature="e#28662#28663#0" expanded="false" />
+            <element signature="e#28705#28706#0" expanded="false" />
+            <element signature="e#28757#28758#0" expanded="false" />
+            <element signature="e#28798#28799#0" expanded="false" />
+            <element signature="e#28830#28831#0" expanded="false" />
+            <element signature="e#28865#28866#0" expanded="false" />
+            <element signature="e#28920#28921#0" expanded="false" />
+            <element signature="e#28961#28962#0" expanded="false" />
+            <element signature="e#29114#29115#0" expanded="false" />
+            <element signature="e#29179#29180#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Leader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22416">
+          <caret line="990" column="14" selection-start-line="990" selection-start-column="14" selection-end-line="990" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2488#2489#0" expanded="false" />
+            <element signature="e#2578#2579#0" expanded="false" />
+            <element signature="e#4526#4527#0" expanded="false" />
+            <element signature="e#4568#4569#0" expanded="false" />
+            <element signature="e#9317#9318#0" expanded="false" />
+            <element signature="e#9398#9399#0" expanded="false" />
+            <element signature="e#10710#10711#0" expanded="false" />
+            <element signature="e#10745#10746#0" expanded="false" />
+            <element signature="e#24408#24409#0" expanded="false" />
+            <element signature="e#24471#24472#0" expanded="false" />
+            <element signature="e#24627#24628#0" expanded="false" />
+            <element signature="e#24665#24666#0" expanded="false" />
+            <element signature="e#37495#37496#0" expanded="false" />
+            <element signature="e#37552#37553#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3624">
+          <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2214#2215#0" expanded="false" />
+            <element signature="e#2252#2253#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3048">
+          <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3537#3538#0" expanded="false" />
+            <element signature="e#3572#3573#0" expanded="false" />
+            <element signature="e#3714#3715#0" expanded="false" />
+            <element signature="e#3749#3750#0" expanded="false" />
+            <element signature="e#10801#10802#0" expanded="false" />
+            <element signature="e#10873#10874#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZKDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3816">
+          <caret line="223" column="28" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3863#3864#0" expanded="false" />
+            <element signature="e#3897#3898#0" expanded="false" />
+            <element signature="e#4687#4688#0" expanded="false" />
+            <element signature="e#4723#4724#0" expanded="false" />
+            <element signature="e#4879#4880#0" expanded="false" />
+            <element signature="e#4917#4918#0" expanded="false" />
+            <element signature="e#5134#5135#0" expanded="false" />
+            <element signature="e#5172#5173#0" expanded="false" />
+            <element signature="e#5486#5487#0" expanded="false" />
+            <element signature="e#5516#5517#0" expanded="false" />
+            <element signature="e#6157#6158#0" expanded="false" />
+            <element signature="e#6206#6207#0" expanded="false" />
+            <element signature="e#6365#6366#0" expanded="false" />
+            <element signature="e#6405#6406#0" expanded="false" />
+            <element signature="e#6551#6552#0" expanded="false" />
+            <element signature="e#6596#6597#0" expanded="false" />
+            <element signature="e#6775#6776#0" expanded="false" />
+            <element signature="e#6818#6819#0" expanded="false" />
+            <element signature="e#9204#9205#0" expanded="false" />
+            <element signature="e#9245#9246#0" expanded="false" />
+            <element signature="e#9402#9403#0" expanded="false" />
+            <element signature="e#9443#9444#0" expanded="false" />
+            <element signature="e#9669#9670#0" expanded="false" />
+            <element signature="e#9722#9723#0" expanded="false" />
+            <element signature="e#9901#9902#0" expanded="false" />
+            <element signature="e#9949#9950#0" expanded="false" />
+            <element signature="e#10078#10079#0" expanded="false" />
+            <element signature="e#10124#10125#0" expanded="false" />
+            <element signature="e#10351#10352#0" expanded="false" />
+            <element signature="e#10407#10408#0" expanded="false" />
+            <element signature="e#10580#10581#0" expanded="false" />
+            <element signature="e#10629#10630#0" expanded="false" />
+            <element signature="e#10945#10946#0" expanded="false" />
+            <element signature="e#10997#10998#0" expanded="false" />
+            <element signature="e#11591#11592#0" expanded="false" />
+            <element signature="e#11634#11635#0" expanded="false" />
+            <element signature="e#13686#13687#0" expanded="false" />
+            <element signature="e#13737#13738#0" expanded="false" />
+            <element signature="e#13868#13869#0" expanded="false" />
+            <element signature="e#13914#13915#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compileAndRunInClusterMode.sh" />
+    <entry file="file://$PROJECT_DIR$/compileAndRunInStandloneMode.sh" />
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12456">
+          <caret line="586" column="23" selection-start-line="586" selection-start-column="23" selection-end-line="586" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#7764#7765#0" expanded="false" />
+            <element signature="e#7798#7799#0" expanded="false" />
+            <element signature="e#8364#8365#0" expanded="false" />
+            <element signature="e#8409#8410#0" expanded="false" />
+            <element signature="e#8675#8676#0" expanded="false" />
+            <element signature="e#8702#8703#0" expanded="false" />
+            <element signature="e#8979#8980#0" expanded="false" />
+            <element signature="e#9013#9014#0" expanded="false" />
+            <element signature="e#9074#9075#0" expanded="false" />
+            <element signature="e#9105#9106#0" expanded="false" />
+            <element signature="e#9311#9312#0" expanded="false" />
+            <element signature="e#9337#9338#0" expanded="false" />
+            <element signature="e#11605#11606#0" expanded="false" />
+            <element signature="e#11653#11654#0" expanded="false" />
+            <element signature="e#14729#14730#0" expanded="false" />
+            <element signature="e#14759#14760#0" expanded="false" />
+            <element signature="e#14812#14813#0" expanded="false" />
+            <element signature="e#14840#14841#0" expanded="false" />
+            <element signature="e#14966#14967#0" expanded="false" />
+            <element signature="e#15001#15002#0" expanded="false" />
+            <element signature="e#16851#16852#0" expanded="false" />
+            <element signature="e#16885#16886#0" expanded="false" />
+            <element signature="e#27263#27264#0" expanded="false" />
+            <element signature="e#27295#27296#0" expanded="false" />
+            <element signature="e#27363#27364#0" expanded="false" />
+            <element signature="e#27399#27400#0" expanded="false" />
+            <element signature="e#27471#27472#0" expanded="false" />
+            <element signature="e#27507#27508#0" expanded="false" />
+            <element signature="e#37542#37543#0" expanded="false" />
+            <element signature="e#37610#37611#0" expanded="false" />
+            <element signature="e#38968#38969#0" expanded="false" />
+            <element signature="e#39024#39025#0" expanded="false" />
+            <element signature="e#40342#40343#0" expanded="false" />
+            <element signature="e#40369#40370#0" expanded="false" />
+            <element signature="e#40462#40463#0" expanded="false" />
+            <element signature="e#40494#40495#0" expanded="false" />
+            <element signature="e#40593#40594#0" expanded="false" />
+            <element signature="e#40624#40625#0" expanded="false" />
+            <element signature="e#41204#41205#0" expanded="false" />
+            <element signature="e#41285#41286#0" expanded="false" />
+            <element signature="e#41574#41575#0" expanded="false" />
+            <element signature="e#41656#41657#0" expanded="false" />
+            <element signature="e#41981#41982#0" expanded="false" />
+            <element signature="e#42013#42014#0" expanded="false" />
+            <element signature="e#42320#42321#0" expanded="false" />
+            <element signature="e#42347#42348#0" expanded="false" />
+            <element signature="e#42569#42570#0" expanded="false" />
+            <element signature="e#42616#42617#0" expanded="false" />
+            <element signature="e#42725#42726#0" expanded="false" />
+            <element signature="e#42759#42760#0" expanded="false" />
+            <element signature="e#42841#42842#0" expanded="false" />
+            <element signature="e#42873#42874#0" expanded="false" />
+            <element signature="e#42961#42962#0" expanded="false" />
+            <element signature="e#43003#43004#0" expanded="false" />
+            <element signature="e#43675#43676#0" expanded="false" />
+            <element signature="e#43721#43722#0" expanded="false" />
+            <element signature="e#43803#43804#0" expanded="false" />
+            <element signature="e#43838#43839#0" expanded="false" />
+            <element signature="e#43937#43938#0" expanded="false" />
+            <element signature="e#43985#43986#0" expanded="false" />
+            <element signature="e#44033#44034#0" expanded="false" />
+            <element signature="e#44076#44077#0" expanded="false" />
+            <element signature="e#44262#44263#0" expanded="false" />
+            <element signature="e#44296#44297#0" expanded="false" />
+            <element signature="e#44361#44362#0" expanded="false" />
+            <element signature="e#44407#44408#0" expanded="false" />
+            <element signature="e#44477#44478#0" expanded="false" />
+            <element signature="e#44523#44524#0" expanded="false" />
+            <element signature="e#44557#44558#0" expanded="false" />
+            <element signature="e#44606#44607#0" expanded="false" />
+            <element signature="e#44734#44735#0" expanded="false" />
+            <element signature="e#44775#44776#0" expanded="false" />
+            <element signature="e#44824#44825#0" expanded="false" />
+            <element signature="e#44862#44863#0" expanded="false" />
+            <element signature="e#44992#44993#0" expanded="false" />
+            <element signature="e#45028#45029#0" expanded="false" />
+            <element signature="e#45075#45076#0" expanded="false" />
+            <element signature="e#45113#45114#0" expanded="false" />
+            <element signature="e#45147#45148#0" expanded="false" />
+            <element signature="e#45177#45178#0" expanded="false" />
+            <element signature="e#45287#45288#0" expanded="false" />
+            <element signature="e#45313#45314#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NOTICE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit:junit:4.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zookeeper-3.4.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Go 1.7.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

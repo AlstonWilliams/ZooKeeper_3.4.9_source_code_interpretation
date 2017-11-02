@@ -1,0 +1,584 @@
+2017-09-13 11:19:28,282 [myid:] - INFO  [main:QuorumPeerConfig@124] - Reading configuration from: conf/zoo1.cfg
+2017-09-13 11:19:28,314 [myid:] - INFO  [main:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.101 to address: /192.168.56.101
+2017-09-13 11:19:28,316 [myid:] - INFO  [main:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.103 to address: /192.168.56.103
+2017-09-13 11:19:28,320 [myid:] - INFO  [main:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:19:28,321 [myid:] - INFO  [main:QuorumPeerConfig@352] - Defaulting to majority quorums
+2017-09-13 11:19:28,326 [myid:1] - INFO  [main:DatadirCleanupManager@79] - autopurge.snapRetainCount set to 3
+2017-09-13 11:19:28,327 [myid:1] - INFO  [main:DatadirCleanupManager@80] - autopurge.purgeInterval set to 0
+2017-09-13 11:19:28,327 [myid:1] - INFO  [main:DatadirCleanupManager@102] - Purge task is not scheduled.
+2017-09-13 11:19:28,405 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:hiearchy=default
+2017-09-13 11:19:28,406 [myid:1] - DEBUG [main:HierarchyDynamicMBean@260] - postRegister is called.
+2017-09-13 11:19:28,408 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=root
+2017-09-13 11:19:28,408 [myid:1] - DEBUG [main:LoggerDynamicMBean@258] - Adding AppenderMBean for appender named CONSOLE
+2017-09-13 11:19:28,410 [myid:1] - DEBUG [main:AppenderDynamicMBean@158] - getMBeanInfo called.
+2017-09-13 11:19:28,410 [myid:1] - DEBUG [main:AppenderDynamicMBean@337] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:appender=CONSOLE
+2017-09-13 11:19:28,411 [myid:1] - DEBUG [main:AppenderDynamicMBean@197] - Adding LayoutMBean:CONSOLE,layout=org.apache.log4j.PatternLayout
+2017-09-13 11:19:28,411 [myid:1] - DEBUG [main:LayoutDynamicMBean@140] - getMBeanInfo called.
+2017-09-13 11:19:28,414 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:appender=CONSOLE,layout=org.apache.log4j.PatternLayout
+2017-09-13 11:19:28,414 [myid:1] - DEBUG [main:LoggerDynamicMBean@258] - Adding AppenderMBean for appender named ROLLINGFILE
+2017-09-13 11:19:28,415 [myid:1] - DEBUG [main:AppenderDynamicMBean@158] - getMBeanInfo called.
+2017-09-13 11:19:28,415 [myid:1] - DEBUG [main:AppenderDynamicMBean@337] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:appender=ROLLINGFILE
+2017-09-13 11:19:28,415 [myid:1] - DEBUG [main:AppenderDynamicMBean@197] - Adding LayoutMBean:ROLLINGFILE,layout=org.apache.log4j.PatternLayout
+2017-09-13 11:19:28,415 [myid:1] - DEBUG [main:LayoutDynamicMBean@140] - getMBeanInfo called.
+2017-09-13 11:19:28,416 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:appender=ROLLINGFILE,layout=org.apache.log4j.PatternLayout
+2017-09-13 11:19:28,416 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [root] as listener.
+2017-09-13 11:19:28,417 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.quorum.flexible.QuorumMaj
+2017-09-13 11:19:28,417 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.quorum.flexible.QuorumMaj] as listener.
+2017-09-13 11:19:28,418 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.log4j.jmx.LoggerDynamicMBean
+2017-09-13 11:19:28,418 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.log4j.jmx.LoggerDynamicMBean] as listener.
+2017-09-13 11:19:28,418 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.jmx.MBeanRegistry
+2017-09-13 11:19:28,418 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.jmx.MBeanRegistry] as listener.
+2017-09-13 11:19:28,419 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.quorum.QuorumPeer
+2017-09-13 11:19:28,419 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.quorum.QuorumPeer] as listener.
+2017-09-13 11:19:28,419 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.quorum.QuorumPeerConfig
+2017-09-13 11:19:28,419 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.quorum.QuorumPeerConfig] as listener.
+2017-09-13 11:19:28,420 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.log4j.jmx.AppenderDynamicMBean
+2017-09-13 11:19:28,420 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.log4j.jmx.AppenderDynamicMBean] as listener.
+2017-09-13 11:19:28,420 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.quorum.QuorumPeerMain
+2017-09-13 11:19:28,420 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.quorum.QuorumPeerMain] as listener.
+2017-09-13 11:19:28,421 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.log4j.jmx.HierarchyDynamicMBean
+2017-09-13 11:19:28,421 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.log4j.jmx.HierarchyDynamicMBean] as listener.
+2017-09-13 11:19:28,421 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.DatadirCleanupManager
+2017-09-13 11:19:28,421 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.DatadirCleanupManager] as listener.
+2017-09-13 11:19:28,422 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.log4j.jmx.LayoutDynamicMBean
+2017-09-13 11:19:28,422 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.log4j.jmx.LayoutDynamicMBean] as listener.
+2017-09-13 11:19:28,422 [myid:1] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.ZooKeeperThread
+2017-09-13 11:19:28,422 [myid:1] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.ZooKeeperThread] as listener.
+2017-09-13 11:19:28,422 [myid:1] - INFO  [main:QuorumPeerMain@133] - Starting quorum peer
+2017-09-13 11:19:28,439 [myid:1] - INFO  [main:NIOServerCnxnFactory@90] - binding to port 0.0.0.0/0.0.0.0:2181
+2017-09-13 11:19:28,445 [myid:1] - DEBUG [main:FileTxnSnapLog@79] - Opening datadir:/var/zookeeper snapDir:/var/zookeeper
+2017-09-13 11:19:28,451 [myid:1] - INFO  [main:QuorumPeer@1015] - tickTime set to 2000
+2017-09-13 11:19:28,452 [myid:1] - INFO  [main:QuorumPeer@1035] - minSessionTimeout set to -1
+2017-09-13 11:19:28,453 [myid:1] - INFO  [main:QuorumPeer@1046] - maxSessionTimeout set to -1
+2017-09-13 11:19:28,453 [myid:1] - INFO  [main:QuorumPeer@1061] - initLimit set to 10
+2017-09-13 11:19:28,480 [myid:1] - INFO  [main:FileSnap@83] - Reading snapshot /var/zookeeper/version-2/snapshot.0
+2017-09-13 11:19:28,496 [myid:1] - INFO  [ListenerThread:QuorumCnxManager$Listener@534] - My election bind port: /192.168.56.101:3888
+2017-09-13 11:19:28,509 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer@735] - Starting quorum peer
+2017-09-13 11:19:28,527 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer@770] - LOOKING
+2017-09-13 11:19:28,528 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer@701] - Initializing leader election protocol...
+2017-09-13 11:19:28,530 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@719] - Updating proposal: 1 (newleader), 0x0 (newzxid), -1 (oldleader), 0xffffffffffffffff (oldzxid)
+2017-09-13 11:19:28,530 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@818] - New election. My id =  1, proposed zxid=0x0
+2017-09-13 11:19:28,531 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), 1 (recipient), 1 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:28,532 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), 2 (recipient), 1 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:28,532 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), 3 (recipient), 1 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:28,533 [myid:1] - DEBUG [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 1
+2017-09-13 11:19:28,533 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:28,533 [myid:1] - DEBUG [WorkerSender[myid=1]:QuorumCnxManager@377] - Opening channel to server 2
+2017-09-13 11:19:28,543 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 1, proposed id: 1, zxid: 0x0, proposed zxid: 0x0
+2017-09-13 11:19:28,544 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=1, proposed leader=1, proposed zxid=0x0, proposed election epoch=0x1
+2017-09-13 11:19:28,544 [myid:1] - WARN  [WorkerSender[myid=1]:QuorumCnxManager@400] - Cannot open channel to 2 at election address /192.168.56.102:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:452)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:433)
+	at java.lang.Thread.run(Thread.java:748)
+2017-09-13 11:19:28,557 [myid:1] - INFO  [WorkerSender[myid=1]:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:19:28,558 [myid:1] - DEBUG [WorkerSender[myid=1]:QuorumCnxManager@377] - Opening channel to server 3
+2017-09-13 11:19:28,559 [myid:1] - WARN  [WorkerSender[myid=1]:QuorumCnxManager@400] - Cannot open channel to 3 at election address /192.168.56.103:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:452)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:433)
+	at java.lang.Thread.run(Thread.java:748)
+2017-09-13 11:19:28,562 [myid:1] - INFO  [WorkerSender[myid=1]:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.103 to address: /192.168.56.103
+2017-09-13 11:19:28,745 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@436] - Queue size: 1
+2017-09-13 11:19:28,746 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@436] - Queue size: 1
+2017-09-13 11:19:28,747 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@377] - Opening channel to server 2
+2017-09-13 11:19:28,748 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 2 at election address /192.168.56.102:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:818)
+2017-09-13 11:19:28,752 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:19:28,753 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@377] - Opening channel to server 3
+2017-09-13 11:19:28,754 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 3 at election address /192.168.56.103:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:818)
+2017-09-13 11:19:28,757 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.103 to address: /192.168.56.103
+2017-09-13 11:19:28,761 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@852] - Notification time out: 400
+2017-09-13 11:19:29,162 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@436] - Queue size: 1
+2017-09-13 11:19:29,162 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@436] - Queue size: 1
+2017-09-13 11:19:29,162 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@377] - Opening channel to server 2
+2017-09-13 11:19:29,163 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 2 at election address /192.168.56.102:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:818)
+2017-09-13 11:19:29,167 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:19:29,167 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@377] - Opening channel to server 3
+2017-09-13 11:19:29,168 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 3 at election address /192.168.56.103:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:818)
+2017-09-13 11:19:29,171 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.103 to address: /192.168.56.103
+2017-09-13 11:19:29,171 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@852] - Notification time out: 800
+2017-09-13 11:19:29,899 [myid:1] - INFO  [/192.168.56.101:3888:QuorumCnxManager$Listener@541] - Received connection request /192.168.56.102:47178
+2017-09-13 11:19:29,903 [myid:1] - DEBUG [/192.168.56.101:3888:QuorumCnxManager$SendWorker@618] - Address of remote peer: 2
+2017-09-13 11:19:29,911 [myid:1] - DEBUG [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 1
+2017-09-13 11:19:29,911 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:29,912 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 2, proposed id: 1, zxid: 0x0, proposed zxid: 0x0
+2017-09-13 11:19:29,914 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@719] - Updating proposal: 2 (newleader), 0x0 (newzxid), 1 (oldleader), 0x0 (oldzxid)
+2017-09-13 11:19:29,914 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), 1 (recipient), 1 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:29,914 [myid:1] - DEBUG [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 1
+2017-09-13 11:19:29,915 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:29,914 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), 2 (recipient), 1 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:29,916 [myid:1] - DEBUG [WorkerSender[myid=1]:QuorumCnxManager@411] - There is a connection already for server 2
+2017-09-13 11:19:29,916 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), 3 (recipient), 1 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:29,916 [myid:1] - DEBUG [WorkerSender[myid=1]:QuorumCnxManager@377] - Opening channel to server 3
+2017-09-13 11:19:29,917 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=2, proposed leader=2, proposed zxid=0x0, proposed election epoch=0x1
+2017-09-13 11:19:29,917 [myid:1] - WARN  [WorkerSender[myid=1]:QuorumCnxManager@400] - Cannot open channel to 3 at election address /192.168.56.103:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:452)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:433)
+	at java.lang.Thread.run(Thread.java:748)
+2017-09-13 11:19:29,922 [myid:1] - INFO  [WorkerSender[myid=1]:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.103 to address: /192.168.56.103
+2017-09-13 11:19:29,922 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 2, proposed id: 2, zxid: 0x0, proposed zxid: 0x0
+2017-09-13 11:19:29,923 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=1, proposed leader=2, proposed zxid=0x0, proposed election epoch=0x1
+2017-09-13 11:19:30,123 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@741] - I'm a participant: 1
+2017-09-13 11:19:30,124 [myid:1] - DEBUG [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@551] - About to leave FLE instance: leader=2, zxid=0x0, my id=1, my state=FOLLOWING
+2017-09-13 11:19:30,124 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer@840] - FOLLOWING
+2017-09-13 11:19:30,131 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Learner@86] - TCP NoDelay set to: true
+2017-09-13 11:19:30,142 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:zookeeper.version=3.4.9--1, built on 07/21/2017 01:06 GMT
+2017-09-13 11:19:30,143 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:host.name=zookeeper1
+2017-09-13 11:19:30,143 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.version=1.7.0_151
+2017-09-13 11:19:30,144 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2017-09-13 11:19:30,146 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2017-09-13 11:19:30,147 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.class.path=build/zookeeper-3.4.9.jar:lib/log4j-1.2.16.jar:lib/slf4j-log4j12-1.6.1.jar:lib/slf4j-api-1.6.1.jar:conf
+2017-09-13 11:19:30,148 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2017-09-13 11:19:30,148 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2017-09-13 11:19:30,149 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.compiler=<NA>
+2017-09-13 11:19:30,149 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.name=Linux
+2017-09-13 11:19:30,150 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.arch=amd64
+2017-09-13 11:19:30,150 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.version=3.13.0-100-generic
+2017-09-13 11:19:30,151 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.name=vagrant
+2017-09-13 11:19:30,152 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.home=/home/vagrant
+2017-09-13 11:19:30,152 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.dir=/home/vagrant/zookeeper
+2017-09-13 11:19:30,161 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:ZooKeeperServer@158] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/zookeeper/version-2 snapdir /var/zookeeper/version-2
+2017-09-13 11:19:30,163 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Follower@61] - FOLLOWING - LEADER ELECTION TOOK - 1632
+2017-09-13 11:19:30,167 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:19:30,190 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:Learner@326] - Getting a diff from the leader 0x0
+2017-09-13 11:19:30,195 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FileTxnSnapLog@240] - Snapshotting: 0x0 to /var/zookeeper/version-2/snapshot.0
+2017-09-13 11:19:31,110 [myid:1] - INFO  [/192.168.56.101:3888:QuorumCnxManager$Listener@541] - Received connection request /192.168.56.103:52615
+2017-09-13 11:19:31,112 [myid:1] - DEBUG [/192.168.56.101:3888:QuorumCnxManager$SendWorker@618] - Address of remote peer: 3
+2017-09-13 11:19:31,122 [myid:1] - DEBUG [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 1
+2017-09-13 11:19:31,123 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x2 (n.peerEpoch) FOLLOWING (my state)
+2017-09-13 11:19:31,129 [myid:1] - DEBUG [WorkerReceiver[myid=1]:FastLeaderElection$Messenger$WorkerReceiver@369] - Sending new notification. My id =  1 recipient=3 zxid=0x0 leader=2
+2017-09-13 11:19:31,129 [myid:1] - DEBUG [WorkerSender[myid=1]:QuorumCnxManager@411] - There is a connection already for server 3
+ader), 0x0 (n.zxid), 0x1 (n.round), 1 (recipient), 2 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:30,245 [myid:2] - DEBUG [WorkerSender[myid=2]:QuorumCnxManager@377] - Opening channel to server 1
+2017-09-13 11:19:30,245 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), 2 (recipient), 2 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:30,252 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), 3 (recipient), 2 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:30,252 [myid:2] - DEBUG [WorkerSender[myid=2]:QuorumCnxManager@383] - Connected to server 1
+2017-09-13 11:19:30,261 [myid:2] - DEBUG [WorkerSender[myid=2]:QuorumCnxManager$SendWorker@618] - Address of remote peer: 1
+2017-09-13 11:19:30,265 [myid:2] - DEBUG [WorkerSender[myid=2]:QuorumCnxManager@377] - Opening channel to server 3
+2017-09-13 11:19:30,266 [myid:2] - DEBUG [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 2
+2017-09-13 11:19:30,267 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:30,269 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 2, proposed id: 2, zxid: 0x0, proposed zxid: 0x0
+2017-09-13 11:19:30,270 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=2, proposed leader=2, proposed zxid=0x0, proposed election epoch=0x1
+2017-09-13 11:19:30,270 [myid:2] - WARN  [WorkerSender[myid=2]:QuorumCnxManager@400] - Cannot open channel to 3 at election address /192.168.56.103:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:452)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:433)
+	at java.lang.Thread.run(Thread.java:748)
+2017-09-13 11:19:30,271 [myid:2] - DEBUG [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 2
+2017-09-13 11:19:30,278 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@600] - Notification: 1 (message format version), 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:30,279 [myid:2] - DEBUG [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 2
+2017-09-13 11:19:30,279 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:30,278 [myid:2] - INFO  [WorkerSender[myid=2]:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.103 to address: /192.168.56.103
+2017-09-13 11:19:30,280 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 1, proposed id: 2, zxid: 0x0, proposed zxid: 0x0
+2017-09-13 11:19:30,281 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=1, proposed leader=1, proposed zxid=0x0, proposed election epoch=0x1
+2017-09-13 11:19:30,281 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 2, proposed id: 2, zxid: 0x0, proposed zxid: 0x0
+2017-09-13 11:19:30,281 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=1, proposed leader=2, proposed zxid=0x0, proposed election epoch=0x1
+2017-09-13 11:19:30,482 [myid:2] - DEBUG [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@551] - About to leave FLE instance: leader=2, zxid=0x0, my id=2, my state=LEADING
+2017-09-13 11:19:30,482 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:QuorumPeer@852] - LEADING
+2017-09-13 11:19:30,486 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Leader@59] - TCP NoDelay set to: true
+2017-09-13 11:19:30,502 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:zookeeper.version=3.4.9--1, built on 07/21/2017 01:06 GMT
+2017-09-13 11:19:30,503 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:host.name=zookeeper2
+2017-09-13 11:19:30,504 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.version=1.7.0_151
+2017-09-13 11:19:30,505 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2017-09-13 11:19:30,505 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2017-09-13 11:19:30,506 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.class.path=build/zookeeper-3.4.9.jar:lib/log4j-1.2.16.jar:lib/slf4j-log4j12-1.6.1.jar:lib/slf4j-api-1.6.1.jar:conf
+2017-09-13 11:19:30,510 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2017-09-13 11:19:30,510 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2017-09-13 11:19:30,511 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.compiler=<NA>
+2017-09-13 11:19:30,511 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.name=Linux
+2017-09-13 11:19:30,512 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.arch=amd64
+2017-09-13 11:19:30,512 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.version=3.13.0-100-generic
+2017-09-13 11:19:30,513 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.name=vagrant
+2017-09-13 11:19:30,514 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.home=/home/vagrant
+2017-09-13 11:19:30,514 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.dir=/home/vagrant/zookeeper
+2017-09-13 11:19:30,518 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:ZooKeeperServer@158] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/zookeeper/version-2 snapdir /var/zookeeper/version-2
+2017-09-13 11:19:30,520 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Leader@361] - LEADING - LEADER ELECTION TOOK - 277
+2017-09-13 11:19:30,534 [myid:2] - INFO  [LearnerHandler-/192.168.56.101:51603:LearnerHandler@329] - Follower sid: 1 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@5ef75c3b
+2017-09-13 11:19:30,540 [myid:2] - INFO  [LearnerHandler-/192.168.56.101:51603:LearnerHandler@384] - Synchronizing with Follower sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2017-09-13 11:19:30,541 [myid:2] - INFO  [LearnerHandler-/192.168.56.101:51603:LearnerHandler@393] - leader and follower are in sync, zxid=0x0
+2017-09-13 11:19:30,542 [myid:2] - INFO  [LearnerHandler-/192.168.56.101:51603:LearnerHandler@458] - Sending DIFF
+2017-09-13 11:19:30,551 [myid:2] - INFO  [LearnerHandler-/192.168.56.101:51603:LearnerHandler@518] - Received NEWLEADER-ACK message from 1
+2017-09-13 11:19:30,552 [myid:2] - INFO  [QuorumPeer[myid=2]/0:0:0:0:0:0:0:0:2181:Leader@952] - Have quorum of supporters, sids: [ 1,2 ]; starting up and setting last processed zxid: 0x300000000
+2017-09-13 11:19:30,812 [myid:] - INFO  [main:QuorumPeerConfig@124] - Reading configuration from: conf/zoo1.cfg
+2017-09-13 11:19:30,844 [myid:] - INFO  [main:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.101 to address: /192.168.56.101
+2017-09-13 11:19:30,846 [myid:] - INFO  [main:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.103 to address: /192.168.56.103
+2017-09-13 11:19:30,850 [myid:] - INFO  [main:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:19:30,850 [myid:] - INFO  [main:QuorumPeerConfig@352] - Defaulting to majority quorums
+2017-09-13 11:19:30,855 [myid:3] - INFO  [main:DatadirCleanupManager@79] - autopurge.snapRetainCount set to 3
+2017-09-13 11:19:30,856 [myid:3] - INFO  [main:DatadirCleanupManager@80] - autopurge.purgeInterval set to 0
+2017-09-13 11:19:30,857 [myid:3] - INFO  [main:DatadirCleanupManager@102] - Purge task is not scheduled.
+2017-09-13 11:19:30,937 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:hiearchy=default
+2017-09-13 11:19:30,937 [myid:3] - DEBUG [main:HierarchyDynamicMBean@260] - postRegister is called.
+2017-09-13 11:19:30,939 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=root
+2017-09-13 11:19:30,939 [myid:3] - DEBUG [main:LoggerDynamicMBean@258] - Adding AppenderMBean for appender named CONSOLE
+2017-09-13 11:19:30,942 [myid:3] - DEBUG [main:AppenderDynamicMBean@158] - getMBeanInfo called.
+2017-09-13 11:19:30,943 [myid:3] - DEBUG [main:AppenderDynamicMBean@337] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:appender=CONSOLE
+2017-09-13 11:19:30,943 [myid:3] - DEBUG [main:AppenderDynamicMBean@197] - Adding LayoutMBean:CONSOLE,layout=org.apache.log4j.PatternLayout
+2017-09-13 11:19:30,944 [myid:3] - DEBUG [main:LayoutDynamicMBean@140] - getMBeanInfo called.
+2017-09-13 11:19:30,946 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:appender=CONSOLE,layout=org.apache.log4j.PatternLayout
+2017-09-13 11:19:30,947 [myid:3] - DEBUG [main:LoggerDynamicMBean@258] - Adding AppenderMBean for appender named ROLLINGFILE
+2017-09-13 11:19:30,947 [myid:3] - DEBUG [main:AppenderDynamicMBean@158] - getMBeanInfo called.
+2017-09-13 11:19:30,947 [myid:3] - DEBUG [main:AppenderDynamicMBean@337] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:appender=ROLLINGFILE
+2017-09-13 11:19:30,947 [myid:3] - DEBUG [main:AppenderDynamicMBean@197] - Adding LayoutMBean:ROLLINGFILE,layout=org.apache.log4j.PatternLayout
+2017-09-13 11:19:30,948 [myid:3] - DEBUG [main:LayoutDynamicMBean@140] - getMBeanInfo called.
+2017-09-13 11:19:30,948 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:appender=ROLLINGFILE,layout=org.apache.log4j.PatternLayout
+2017-09-13 11:19:30,949 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [root] as listener.
+2017-09-13 11:19:30,949 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.quorum.flexible.QuorumMaj
+2017-09-13 11:19:30,950 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.quorum.flexible.QuorumMaj] as listener.
+2017-09-13 11:19:30,950 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.log4j.jmx.LoggerDynamicMBean
+2017-09-13 11:19:30,950 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.log4j.jmx.LoggerDynamicMBean] as listener.
+2017-09-13 11:19:30,951 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.jmx.MBeanRegistry
+2017-09-13 11:19:30,951 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.jmx.MBeanRegistry] as listener.
+2017-09-13 11:19:30,951 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.quorum.QuorumPeer
+2017-09-13 11:19:30,951 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.quorum.QuorumPeer] as listener.
+2017-09-13 11:19:30,952 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.quorum.QuorumPeerConfig
+2017-09-13 11:19:30,952 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.quorum.QuorumPeerConfig] as listener.
+2017-09-13 11:19:30,952 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.log4j.jmx.AppenderDynamicMBean
+2017-09-13 11:19:30,952 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.log4j.jmx.AppenderDynamicMBean] as listener.
+2017-09-13 11:19:30,953 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.quorum.QuorumPeerMain
+2017-09-13 11:19:30,953 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.quorum.QuorumPeerMain] as listener.
+2017-09-13 11:19:30,953 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.log4j.jmx.HierarchyDynamicMBean
+2017-09-13 11:19:30,953 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.log4j.jmx.HierarchyDynamicMBean] as listener.
+2017-09-13 11:19:30,953 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.DatadirCleanupManager
+2017-09-13 11:19:30,954 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.DatadirCleanupManager] as listener.
+2017-09-13 11:19:30,954 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.log4j.jmx.LayoutDynamicMBean
+2017-09-13 11:19:30,954 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.log4j.jmx.LayoutDynamicMBean] as listener.
+2017-09-13 11:19:30,954 [myid:3] - DEBUG [main:AbstractDynamicMBean@148] - preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@ac0cac8, name=log4j:logger=org.apache.zookeeper.server.ZooKeeperThread
+2017-09-13 11:19:30,954 [myid:3] - DEBUG [main:HierarchyDynamicMBean@128] - ---Adding logger [org.apache.zookeeper.server.ZooKeeperThread] as listener.
+2017-09-13 11:19:30,955 [myid:3] - INFO  [main:QuorumPeerMain@133] - Starting quorum peer
+2017-09-13 11:19:30,971 [myid:3] - INFO  [main:NIOServerCnxnFactory@90] - binding to port 0.0.0.0/0.0.0.0:2181
+2017-09-13 11:19:30,978 [myid:3] - DEBUG [main:FileTxnSnapLog@79] - Opening datadir:/var/zookeeper snapDir:/var/zookeeper
+2017-09-13 11:19:30,983 [myid:3] - INFO  [main:QuorumPeer@1015] - tickTime set to 2000
+2017-09-13 11:19:30,985 [myid:3] - INFO  [main:QuorumPeer@1035] - minSessionTimeout set to -1
+2017-09-13 11:19:30,985 [myid:3] - INFO  [main:QuorumPeer@1046] - maxSessionTimeout set to -1
+2017-09-13 11:19:30,986 [myid:3] - INFO  [main:QuorumPeer@1061] - initLimit set to 10
+2017-09-13 11:19:31,011 [myid:3] - INFO  [main:FileSnap@83] - Reading snapshot /var/zookeeper/version-2/snapshot.200000000
+2017-09-13 11:19:31,026 [myid:3] - INFO  [ListenerThread:QuorumCnxManager$Listener@534] - My election bind port: /192.168.56.103:3888
+2017-09-13 11:19:31,039 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer@735] - Starting quorum peer
+2017-09-13 11:19:31,056 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer@770] - LOOKING
+2017-09-13 11:19:31,057 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer@701] - Initializing leader election protocol...
+2017-09-13 11:19:31,058 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@719] - Updating proposal: 3 (newleader), 0x200000000 (newzxid), -1 (oldleader), 0xffffffffffffffff (oldzxid)
+2017-09-13 11:19:31,059 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@818] - New election. My id =  3, proposed zxid=0x200000000
+2017-09-13 11:19:31,059 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 3 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), 1 (recipient), 3 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:31,060 [myid:3] - DEBUG [WorkerSender[myid=3]:QuorumCnxManager@377] - Opening channel to server 1
+2017-09-13 11:19:31,060 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 3 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), 2 (recipient), 3 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:31,067 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 3 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), 3 (recipient), 3 (myid), 0x2 (n.peerEpoch)
+2017-09-13 11:19:31,067 [myid:3] - DEBUG [WorkerSender[myid=3]:QuorumCnxManager@383] - Connected to server 1
+2017-09-13 11:19:31,072 [myid:3] - DEBUG [WorkerSender[myid=3]:QuorumCnxManager$SendWorker@618] - Address of remote peer: 1
+2017-09-13 11:19:31,079 [myid:3] - DEBUG [WorkerSender[myid=3]:QuorumCnxManager@377] - Opening channel to server 2
+2017-09-13 11:19:31,081 [myid:3] - DEBUG [WorkerSender[myid=3]:QuorumCnxManager@383] - Connected to server 2
+2017-09-13 11:19:31,083 [myid:3] - DEBUG [WorkerSender[myid=3]:QuorumCnxManager$SendWorker@618] - Address of remote peer: 2
+2017-09-13 11:19:31,478 [myid:2] - INFO  [/192.168.56.102:3888:QuorumCnxManager$Listener@541] - Received connection request /192.168.56.103:53488
+2017-09-13 11:19:31,479 [myid:2] - DEBUG [/192.168.56.102:3888:QuorumCnxManager$SendWorker@618] - Address of remote peer: 3
+2017-09-13 11:19:31,084 [myid:3] - DEBUG [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 3
+2017-09-13 11:19:31,480 [myid:2] - DEBUG [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 2
+2017-09-13 11:19:31,481 [myid:2] - INFO  [WorkerReceiver[myid=2]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x2 (n.peerEpoch) LEADING (my state)
+2017-09-13 11:19:31,482 [myid:2] - DEBUG [WorkerReceiver[myid=2]:FastLeaderElection$Messenger$WorkerReceiver@369] - Sending new notification. My id =  2 recipient=3 zxid=0x0 leader=2
+2017-09-13 11:19:31,482 [myid:2] - DEBUG [WorkerSender[myid=2]:QuorumCnxManager@411] - There is a connection already for server 3
+2017-09-13 11:19:31,085 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:31,088 [myid:3] - DEBUG [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 3
+2017-09-13 11:19:31,089 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x200000000 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:31,090 [myid:3] - DEBUG [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 3
+2017-09-13 11:19:31,090 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x2 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:31,089 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 2, proposed id: 3, zxid: 0x0, proposed zxid: 0x200000000
+2017-09-13 11:19:31,091 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=1, proposed leader=2, proposed zxid=0x0, proposed election epoch=0x1
+2017-09-13 11:19:31,091 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 3, proposed id: 3, zxid: 0x200000000, proposed zxid: 0x200000000
+2017-09-13 11:19:31,091 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=3, proposed leader=3, proposed zxid=0x200000000, proposed election epoch=0x1
+2017-09-13 11:19:31,091 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 2, proposed id: 3, zxid: 0x0, proposed zxid: 0x200000000
+2017-09-13 11:19:31,092 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=2, proposed leader=2, proposed zxid=0x0, proposed election epoch=0x1
+2017-09-13 11:19:31,091 [myid:3] - DEBUG [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 3
+2017-09-13 11:19:31,092 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0x3 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:31,093 [myid:3] - DEBUG [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 3
+2017-09-13 11:19:31,093 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LEADING (n.state), 2 (n.sid), 0x3 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:19:31,093 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@741] - I'm a participant: 3
+2017-09-13 11:19:31,094 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@551] - About to leave FLE instance: leader=2, zxid=0x0, my id=3, my state=FOLLOWING
+2017-09-13 11:19:31,094 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer@840] - FOLLOWING
+2017-09-13 11:19:31,100 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Learner@86] - TCP NoDelay set to: true
+2017-09-13 11:19:31,112 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:zookeeper.version=3.4.9--1, built on 07/21/2017 01:06 GMT
+2017-09-13 11:19:31,113 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:host.name=zookeeper3
+2017-09-13 11:19:31,114 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.version=1.7.0_151
+2017-09-13 11:19:31,114 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2017-09-13 11:19:31,117 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2017-09-13 11:19:31,119 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.class.path=build/zookeeper-3.4.9.jar:lib/log4j-1.2.16.jar:lib/slf4j-log4j12-1.6.1.jar:lib/slf4j-api-1.6.1.jar:conf
+2017-09-13 11:19:31,120 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2017-09-13 11:19:31,120 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2017-09-13 11:19:31,121 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.compiler=<NA>
+2017-09-13 11:19:31,121 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.name=Linux
+2017-09-13 11:19:31,122 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.arch=amd64
+2017-09-13 11:19:31,123 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.version=3.13.0-100-generic
+2017-09-13 11:19:31,123 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.name=vagrant
+2017-09-13 11:19:31,124 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.home=/home/vagrant
+2017-09-13 11:19:31,124 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.dir=/home/vagrant/zookeeper
+2017-09-13 11:19:31,128 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:ZooKeeperServer@158] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/zookeeper/version-2 snapdir /var/zookeeper/version-2
+2017-09-13 11:19:31,129 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Follower@61] - FOLLOWING - LEADER ELECTION TOOK - 71
+2017-09-13 11:19:31,132 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:19:31,534 [myid:2] - INFO  [LearnerHandler-/192.168.56.103:41682:LearnerHandler@329] - Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@3a510e91
+2017-09-13 11:19:31,539 [myid:2] - INFO  [LearnerHandler-/192.168.56.103:41682:LearnerHandler@384] - Synchronizing with Follower sid: 3 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x200000000
+2017-09-13 11:19:31,543 [myid:2] - DEBUG [LearnerHandler-/192.168.56.103:41682:LearnerHandler@455] - proposals is empty
+2017-09-13 11:19:31,544 [myid:2] - INFO  [LearnerHandler-/192.168.56.103:41682:LearnerHandler@458] - Sending SNAP
+2017-09-13 11:19:31,150 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Learner@329] - Getting a snapshot from leader
+2017-09-13 11:19:31,546 [myid:2] - INFO  [LearnerHandler-/192.168.56.103:41682:LearnerHandler@482] - Sending snapshot last zxid of peer is 0x200000000  zxid of leader is 0x300000000sent zxid of db as 0x300000000
+2017-09-13 11:19:31,159 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FileTxnSnapLog@240] - Snapshotting: 0x300000000 to /var/zookeeper/version-2/snapshot.300000000
+2017-09-13 11:19:31,558 [myid:2] - INFO  [LearnerHandler-/192.168.56.103:41682:LearnerHandler@518] - Received NEWLEADER-ACK message from 3
+2017-09-13 11:21:49,261 [myid:2] - ERROR [LearnerHandler-/192.168.56.101:51603:LearnerHandler@631] - Unexpected exception causing shutdown while sock still open
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:63)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:83)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:99)
+	at org.apache.zookeeper.server.quorum.LearnerHandler.run(LearnerHandler.java:542)
+2017-09-13 11:21:48,855 [myid:3] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@810] - Connection broken for id 1, my id = 3, error = 
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:795)
+2017-09-13 11:21:49,266 [myid:2] - WARN  [LearnerHandler-/192.168.56.101:51603:LearnerHandler@644] - ******* GOODBYE /192.168.56.101:51603 ********
+2017-09-13 11:21:48,863 [myid:3] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@813] - Interrupting SendWorker
+2017-09-13 11:21:48,865 [myid:3] - DEBUG [RecvWorker:1:QuorumCnxManager$SendWorker@636] - Calling finish for 1
+2017-09-13 11:21:49,267 [myid:2] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@810] - Connection broken for id 1, my id = 2, error = 
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:795)
+2017-09-13 11:21:49,277 [myid:2] - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@813] - Interrupting SendWorker
+2017-09-13 11:21:49,278 [myid:2] - DEBUG [RecvWorker:1:QuorumCnxManager$SendWorker@636] - Calling finish for 1
+2017-09-13 11:21:49,279 [myid:2] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@727] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2017)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2095)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:389)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:879)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:715)
+2017-09-13 11:21:49,286 [myid:2] - DEBUG [RecvWorker:1:QuorumCnxManager$SendWorker@656] - Removing entry from senderWorkerMap sid=1
+2017-09-13 11:21:49,287 [myid:2] - DEBUG [SendWorker:1:QuorumCnxManager$SendWorker@636] - Calling finish for 1
+2017-09-13 11:21:49,287 [myid:2] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@736] - Send worker leaving thread
+2017-09-13 11:21:48,866 [myid:3] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@727] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2017)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2095)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:389)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:879)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:715)
+2017-09-13 11:21:48,880 [myid:3] - DEBUG [RecvWorker:1:QuorumCnxManager$SendWorker@656] - Removing entry from senderWorkerMap sid=1
+2017-09-13 11:21:48,886 [myid:3] - DEBUG [SendWorker:1:QuorumCnxManager$SendWorker@636] - Calling finish for 1
+2017-09-13 11:21:48,887 [myid:3] - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@736] - Send worker leaving thread
+2017-09-13 11:21:49,484 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Follower@87] - Exception when following the leader
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.jute.BinaryInputArchive.readInt(BinaryInputArchive.java:63)
+	at org.apache.zookeeper.server.quorum.QuorumPacket.deserialize(QuorumPacket.java:83)
+	at org.apache.jute.BinaryInputArchive.readRecord(BinaryInputArchive.java:99)
+	at org.apache.zookeeper.server.quorum.Learner.readPacket(Learner.java:153)
+	at org.apache.zookeeper.server.quorum.Follower.followLeader(Follower.java:83)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:842)
+2017-09-13 11:21:49,485 [myid:3] - WARN  [RecvWorker:2:QuorumCnxManager$RecvWorker@810] - Connection broken for id 2, my id = 3, error = 
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:795)
+2017-09-13 11:21:49,486 [myid:3] - WARN  [RecvWorker:2:QuorumCnxManager$RecvWorker@813] - Interrupting SendWorker
+2017-09-13 11:21:49,486 [myid:3] - DEBUG [RecvWorker:2:QuorumCnxManager$SendWorker@636] - Calling finish for 2
+2017-09-13 11:21:49,486 [myid:3] - DEBUG [RecvWorker:2:QuorumCnxManager$SendWorker@656] - Removing entry from senderWorkerMap sid=2
+2017-09-13 11:21:49,485 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:Follower@164] - shutdown called
+java.lang.Exception: shutdown Follower
+	at org.apache.zookeeper.server.quorum.Follower.shutdown(Follower.java:164)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:846)
+2017-09-13 11:21:49,487 [myid:3] - WARN  [SendWorker:2:QuorumCnxManager$SendWorker@727] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2017)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2095)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:389)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:879)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:715)
+2017-09-13 11:21:49,489 [myid:3] - DEBUG [SendWorker:2:QuorumCnxManager$SendWorker@636] - Calling finish for 2
+2017-09-13 11:21:49,490 [myid:3] - WARN  [SendWorker:2:QuorumCnxManager$SendWorker@736] - Send worker leaving thread
+2017-09-13 11:21:49,489 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FollowerZooKeeperServer@140] - Shutting down
+2017-09-13 11:21:49,491 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:ZooKeeperServer@488] - shutting down
+2017-09-13 11:21:49,491 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FollowerRequestProcessor@107] - Shutting down
+2017-09-13 11:21:49,493 [myid:3] - INFO  [FollowerRequestProcessor:3:FollowerRequestProcessor@97] - FollowerRequestProcessor exited loop!
+2017-09-13 11:21:49,494 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:CommitProcessor@184] - Shutting down
+2017-09-13 11:21:49,495 [myid:3] - INFO  [CommitProcessor:3:CommitProcessor@153] - CommitProcessor exited loop!
+2017-09-13 11:21:49,496 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FinalRequestProcessor@402] - shutdown of request processor complete
+2017-09-13 11:21:49,497 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:SyncRequestProcessor@208] - Shutting down
+2017-09-13 11:21:49,497 [myid:3] - INFO  [SyncThread:3:SyncRequestProcessor@186] - SyncRequestProcessor exited!
+2017-09-13 11:21:49,498 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer@770] - LOOKING
+2017-09-13 11:21:49,499 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer@701] - Initializing leader election protocol...
+2017-09-13 11:21:49,503 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FileSnap@83] - Reading snapshot /var/zookeeper/version-2/snapshot.300000000
+2017-09-13 11:21:49,506 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@719] - Updating proposal: 3 (newleader), 0x300000000 (newzxid), 3 (oldleader), 0x200000000 (oldzxid)
+2017-09-13 11:21:49,506 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@818] - New election. My id =  3, proposed zxid=0x300000000
+2017-09-13 11:21:49,507 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 3 (n.leader), 0x300000000 (n.zxid), 0x2 (n.round), 1 (recipient), 3 (myid), 0x3 (n.peerEpoch)
+2017-09-13 11:21:49,507 [myid:3] - DEBUG [WorkerSender[myid=3]:QuorumCnxManager@377] - Opening channel to server 1
+2017-09-13 11:21:49,507 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 3 (n.leader), 0x300000000 (n.zxid), 0x2 (n.round), 2 (recipient), 3 (myid), 0x3 (n.peerEpoch)
+2017-09-13 11:21:49,508 [myid:3] - WARN  [WorkerSender[myid=3]:QuorumCnxManager@400] - Cannot open channel to 1 at election address /192.168.56.101:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:452)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:433)
+	at java.lang.Thread.run(Thread.java:748)
+2017-09-13 11:21:49,513 [myid:3] - INFO  [WorkerSender[myid=3]:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.101 to address: /192.168.56.101
+2017-09-13 11:21:49,514 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@589] - Sending Notification: 3 (n.leader), 0x300000000 (n.zxid), 0x2 (n.round), 3 (recipient), 3 (myid), 0x3 (n.peerEpoch)
+2017-09-13 11:21:49,514 [myid:3] - DEBUG [WorkerSender[myid=3]:QuorumCnxManager@377] - Opening channel to server 2
+2017-09-13 11:21:49,516 [myid:3] - WARN  [WorkerSender[myid=3]:QuorumCnxManager@400] - Cannot open channel to 2 at election address /192.168.56.102:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:452)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:433)
+	at java.lang.Thread.run(Thread.java:748)
+2017-09-13 11:21:49,520 [myid:3] - INFO  [WorkerSender[myid=3]:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:21:49,521 [myid:3] - DEBUG [WorkerReceiver[myid=3]:FastLeaderElection$Messenger$WorkerReceiver@272] - Receive new notification message. My id = 3
+2017-09-13 11:21:49,521 [myid:3] - INFO  [WorkerReceiver[myid=3]:FastLeaderElection@600] - Notification: 1 (message format version), 3 (n.leader), 0x300000000 (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x3 (n.peerEpoch) LOOKING (my state)
+2017-09-13 11:21:49,522 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@612] - id: 3, proposed id: 3, zxid: 0x300000000, proposed zxid: 0x300000000
+2017-09-13 11:21:49,523 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@888] - Adding vote: from=3, proposed leader=3, proposed zxid=0x300000000, proposed election epoch=0x2
+2017-09-13 11:21:49,724 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@436] - Queue size: 1
+2017-09-13 11:21:49,724 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@436] - Queue size: 1
+2017-09-13 11:21:49,724 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@377] - Opening channel to server 2
+2017-09-13 11:21:49,725 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 2 at election address /192.168.56.102:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:818)
+2017-09-13 11:21:49,730 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:21:49,731 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@377] - Opening channel to server 1
+2017-09-13 11:21:49,732 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 1 at election address /192.168.56.101:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:818)
+2017-09-13 11:21:49,733 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.101 to address: /192.168.56.101
+2017-09-13 11:21:49,733 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@852] - Notification time out: 400
+2017-09-13 11:21:50,134 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@436] - Queue size: 1
+2017-09-13 11:21:50,134 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@436] - Queue size: 1
+2017-09-13 11:21:50,139 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@377] - Opening channel to server 2
+2017-09-13 11:21:50,139 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 2 at election address /192.168.56.102:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:818)
+2017-09-13 11:21:50,142 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.102 to address: /192.168.56.102
+2017-09-13 11:21:50,143 [myid:3] - DEBUG [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@377] - Opening channel to server 1
+2017-09-13 11:21:50,144 [myid:3] - WARN  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumCnxManager@400] - Cannot open channel to 1 at election address /192.168.56.101:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:580)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:381)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectAll(QuorumCnxManager.java:426)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection.lookForLeader(FastLeaderElection.java:843)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:818)
+2017-09-13 11:21:50,146 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:QuorumPeer$QuorumServer@145] - Resolved hostname: 192.168.56.101 to address: /192.168.56.101
+2017-09-13 11:21:50,146 [myid:3] - INFO  [QuorumPeer[myid=3]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@852] - Notification time out: 800

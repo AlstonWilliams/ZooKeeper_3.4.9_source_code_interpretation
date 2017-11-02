@@ -1,0 +1,37 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/alstonwilliams/source_code/zookeeper-3.4.9/build/lib/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/alstonwilliams/source_code/zookeeper-3.4.9/lib/slf4j-log4j12-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2017-09-12 22:17:42,442 [myid:] - INFO  [main:QuorumPeerConfig@124] - Reading configuration from: /home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../conf/zoo.cfg
+2017-09-12 22:17:43,038 [myid:] - INFO  [main:QuorumPeer$QuorumServer@145] - Resolved hostname: mail.alstonwilliams.site to address: mail.alstonwilliams.site/104.224.133.93
+2017-09-12 22:17:43,038 [myid:] - ERROR [main:QuorumPeerConfig@301] - Invalid configuration, only one server specified (ignoring)
+2017-09-12 22:17:43,039 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.snapRetainCount set to 3
+2017-09-12 22:17:43,039 [myid:] - INFO  [main:DatadirCleanupManager@80] - autopurge.purgeInterval set to 0
+2017-09-12 22:17:43,040 [myid:] - INFO  [main:DatadirCleanupManager@102] - Purge task is not scheduled.
+2017-09-12 22:17:43,040 [myid:] - INFO  [main:QuorumPeerMain@113] - -------- length of args: 1
+2017-09-12 22:17:43,040 [myid:] - INFO  [main:QuorumPeerMain@114] - -------- size of servers: 0
+2017-09-12 22:17:43,040 [myid:] - WARN  [main:QuorumPeerMain@121] - Either no config or no quorum defined in config, running  in standalone mode
+2017-09-12 22:17:43,040 [myid:] - INFO  [main:QuorumPeerMain@125] - -------- start standalone mode
+2017-09-12 22:17:43,051 [myid:] - INFO  [main:QuorumPeerConfig@124] - Reading configuration from: /home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../conf/zoo.cfg
+2017-09-12 22:17:43,051 [myid:] - INFO  [main:QuorumPeer$QuorumServer@145] - Resolved hostname: mail.alstonwilliams.site to address: mail.alstonwilliams.site/104.224.133.93
+2017-09-12 22:17:43,051 [myid:] - ERROR [main:QuorumPeerConfig@301] - Invalid configuration, only one server specified (ignoring)
+2017-09-12 22:17:43,051 [myid:] - INFO  [main:ZooKeeperServerMain@100] - Starting server
+2017-09-12 22:17:43,056 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.9--1, built on 07/21/2017 01:06 GMT
+2017-09-12 22:17:43,057 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=alstonwilliams
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_91
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/opt/jdk1.8.0_91/jre
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../build/classes:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../build/lib/slf4j-log4j12-1.6.1.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../build/lib/slf4j-api-1.6.1.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../build/lib/netty-3.10.5.Final.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../build/lib/log4j-1.2.16.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../build/lib/jline-0.9.94.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../lib/slf4j-api-1.6.1.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../lib/netty-3.10.5.Final.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../lib/log4j-1.2.16.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../lib/jline-0.9.94.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../zookeeper-3.4.9.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../src/java/lib/ivy-2.4.0.jar:/home/alstonwilliams/source_code/zookeeper-3.4.9/bin/../conf:.:/opt/jdk1.8.0_91/lib:/opt/jdk1.8.0_91/jre/lib:/home/alstonwilliams/source_code/apache-flume-1.7.0-src/flume-ng-dist/target/apache-flume-1.7.0-bin/apache-flume-1.7.0-bin/lib:/home/alstonwilliams/source_code/apache-storm-1.1.0/compiled/apache-storm-1.1.0/lib
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2017-09-12 22:17:43,058 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=3.19.0-25-generic
+2017-09-12 22:17:43,059 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=alstonwilliams
+2017-09-12 22:17:43,059 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/alstonwilliams
+2017-09-12 22:17:43,059 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/alstonwilliams/source_code/zookeeper-3.4.9
+2017-09-12 22:17:43,064 [myid:] - INFO  [main:ZooKeeperServer@806] - tickTime set to 2000
+2017-09-12 22:17:43,064 [myid:] - INFO  [main:ZooKeeperServer@815] - minSessionTimeout set to -1
+2017-09-12 22:17:43,064 [myid:] - INFO  [main:ZooKeeperServer@824] - maxSessionTimeout set to -1
+2017-09-12 22:17:43,072 [myid:] - INFO  [main:NIOServerCnxnFactory@90] - binding to port 0.0.0.0/0.0.0.0:2181
