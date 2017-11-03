@@ -77,6 +77,13 @@ public class FileSnap implements SnapShot {
         }
         File snap = null;
         boolean foundValid = false;
+        /**
+         *
+         * Reading:
+         *  Find out the lastest valid snapshot and deserialize to DataTree
+         *
+         *
+         * */
         for (int i = 0; i < snapList.size(); i++) {
             snap = snapList.get(i);
             InputStream snapIS = null;
@@ -106,6 +113,13 @@ public class FileSnap implements SnapShot {
         if (!foundValid) {
             throw new IOException("Not able to find valid snapshots in " + snapDir);
         }
+
+        /**
+         *
+         * Reading:
+         *  Update the latest processed zxid which is read from SnapShot.
+         *
+         * */
         dt.lastProcessedZxid = Util.getZxidFromName(snap.getName(), "snapshot");
         return dt.lastProcessedZxid;
     }

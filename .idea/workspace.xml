@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f863b4a4-83ea-4833-8358-67bf6c7898a7" name="Default" comment="" />
+    <list default="true" id="f863b4a4-83ea-4833-8358-67bf6c7898a7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java" afterPath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxn.java" afterPath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java" afterPath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java" afterPath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java" afterPath="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zookeeper.out" afterPath="$PROJECT_DIR$/zookeeper.out" />
+    </list>
     <ignored path="zookeeper-3.4.9.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -21,24 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuorumPeerMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3624">
-              <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuorumPeer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12456">
-              <caret line="586" column="23" selection-start-line="586" selection-start-column="23" selection-end-line="586" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="559" column="24" selection-start-line="559" selection-start-column="24" selection-end-line="559" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="false" />
                 <element signature="imports" expanded="false" />
@@ -64,102 +59,65 @@
                 <element signature="e#15001#15002#0" expanded="false" />
                 <element signature="e#16851#16852#0" expanded="false" />
                 <element signature="e#16885#16886#0" expanded="false" />
-                <element signature="e#27263#27264#0" expanded="false" />
-                <element signature="e#27295#27296#0" expanded="false" />
-                <element signature="e#27363#27364#0" expanded="false" />
-                <element signature="e#27399#27400#0" expanded="false" />
-                <element signature="e#27471#27472#0" expanded="false" />
-                <element signature="e#27507#27508#0" expanded="false" />
-                <element signature="e#37542#37543#0" expanded="false" />
-                <element signature="e#37610#37611#0" expanded="false" />
-                <element signature="e#38968#38969#0" expanded="false" />
-                <element signature="e#39024#39025#0" expanded="false" />
-                <element signature="e#40342#40343#0" expanded="false" />
-                <element signature="e#40369#40370#0" expanded="false" />
-                <element signature="e#40462#40463#0" expanded="false" />
-                <element signature="e#40494#40495#0" expanded="false" />
-                <element signature="e#40593#40594#0" expanded="false" />
-                <element signature="e#40624#40625#0" expanded="false" />
-                <element signature="e#41204#41205#0" expanded="false" />
-                <element signature="e#41285#41286#0" expanded="false" />
-                <element signature="e#41574#41575#0" expanded="false" />
-                <element signature="e#41656#41657#0" expanded="false" />
-                <element signature="e#41981#41982#0" expanded="false" />
-                <element signature="e#42013#42014#0" expanded="false" />
-                <element signature="e#42320#42321#0" expanded="false" />
-                <element signature="e#42347#42348#0" expanded="false" />
-                <element signature="e#42569#42570#0" expanded="false" />
-                <element signature="e#42616#42617#0" expanded="false" />
-                <element signature="e#42725#42726#0" expanded="false" />
-                <element signature="e#42759#42760#0" expanded="false" />
-                <element signature="e#42841#42842#0" expanded="false" />
-                <element signature="e#42873#42874#0" expanded="false" />
-                <element signature="e#42961#42962#0" expanded="false" />
-                <element signature="e#43003#43004#0" expanded="false" />
-                <element signature="e#43675#43676#0" expanded="false" />
-                <element signature="e#43721#43722#0" expanded="false" />
-                <element signature="e#43803#43804#0" expanded="false" />
-                <element signature="e#43838#43839#0" expanded="false" />
-                <element signature="e#43937#43938#0" expanded="false" />
-                <element signature="e#43985#43986#0" expanded="false" />
-                <element signature="e#44033#44034#0" expanded="false" />
-                <element signature="e#44076#44077#0" expanded="false" />
-                <element signature="e#44262#44263#0" expanded="false" />
-                <element signature="e#44296#44297#0" expanded="false" />
-                <element signature="e#44361#44362#0" expanded="false" />
-                <element signature="e#44407#44408#0" expanded="false" />
-                <element signature="e#44477#44478#0" expanded="false" />
-                <element signature="e#44523#44524#0" expanded="false" />
-                <element signature="e#44557#44558#0" expanded="false" />
-                <element signature="e#44606#44607#0" expanded="false" />
-                <element signature="e#44734#44735#0" expanded="false" />
-                <element signature="e#44775#44776#0" expanded="false" />
-                <element signature="e#44824#44825#0" expanded="false" />
-                <element signature="e#44862#44863#0" expanded="false" />
-                <element signature="e#44992#44993#0" expanded="false" />
-                <element signature="e#45028#45029#0" expanded="false" />
-                <element signature="e#45075#45076#0" expanded="false" />
-                <element signature="e#45113#45114#0" expanded="false" />
-                <element signature="e#45147#45148#0" expanded="false" />
-                <element signature="e#45177#45178#0" expanded="false" />
-                <element signature="e#45287#45288#0" expanded="false" />
-                <element signature="e#45313#45314#0" expanded="false" />
+                <element signature="e#27470#27471#0" expanded="false" />
+                <element signature="e#27502#27503#0" expanded="false" />
+                <element signature="e#27570#27571#0" expanded="false" />
+                <element signature="e#27606#27607#0" expanded="false" />
+                <element signature="e#27678#27679#0" expanded="false" />
+                <element signature="e#27714#27715#0" expanded="false" />
+                <element signature="e#37749#37750#0" expanded="false" />
+                <element signature="e#37817#37818#0" expanded="false" />
+                <element signature="e#39175#39176#0" expanded="false" />
+                <element signature="e#39231#39232#0" expanded="false" />
+                <element signature="e#40549#40550#0" expanded="false" />
+                <element signature="e#40576#40577#0" expanded="false" />
+                <element signature="e#40669#40670#0" expanded="false" />
+                <element signature="e#40701#40702#0" expanded="false" />
+                <element signature="e#40800#40801#0" expanded="false" />
+                <element signature="e#40831#40832#0" expanded="false" />
+                <element signature="e#41411#41412#0" expanded="false" />
+                <element signature="e#41492#41493#0" expanded="false" />
+                <element signature="e#41781#41782#0" expanded="false" />
+                <element signature="e#41863#41864#0" expanded="false" />
+                <element signature="e#42188#42189#0" expanded="false" />
+                <element signature="e#42220#42221#0" expanded="false" />
+                <element signature="e#42527#42528#0" expanded="false" />
+                <element signature="e#42554#42555#0" expanded="false" />
+                <element signature="e#42776#42777#0" expanded="false" />
+                <element signature="e#42823#42824#0" expanded="false" />
+                <element signature="e#42932#42933#0" expanded="false" />
+                <element signature="e#42966#42967#0" expanded="false" />
+                <element signature="e#43048#43049#0" expanded="false" />
+                <element signature="e#43080#43081#0" expanded="false" />
+                <element signature="e#43168#43169#0" expanded="false" />
+                <element signature="e#43210#43211#0" expanded="false" />
+                <element signature="e#43882#43883#0" expanded="false" />
+                <element signature="e#43928#43929#0" expanded="false" />
+                <element signature="e#44010#44011#0" expanded="false" />
+                <element signature="e#44045#44046#0" expanded="false" />
+                <element signature="e#44144#44145#0" expanded="false" />
+                <element signature="e#44192#44193#0" expanded="false" />
+                <element signature="e#44240#44241#0" expanded="false" />
+                <element signature="e#44283#44284#0" expanded="false" />
+                <element signature="e#44469#44470#0" expanded="false" />
+                <element signature="e#44503#44504#0" expanded="false" />
+                <element signature="e#44568#44569#0" expanded="false" />
+                <element signature="e#44614#44615#0" expanded="false" />
+                <element signature="e#44684#44685#0" expanded="false" />
+                <element signature="e#44730#44731#0" expanded="false" />
+                <element signature="e#44764#44765#0" expanded="false" />
+                <element signature="e#44813#44814#0" expanded="false" />
+                <element signature="e#44941#44942#0" expanded="false" />
+                <element signature="e#44982#44983#0" expanded="false" />
+                <element signature="e#45199#45200#0" expanded="false" />
+                <element signature="e#45235#45236#0" expanded="false" />
+                <element signature="e#45282#45283#0" expanded="false" />
+                <element signature="e#45320#45321#0" expanded="false" />
+                <element signature="e#45354#45355#0" expanded="false" />
+                <element signature="e#45384#45385#0" expanded="false" />
+                <element signature="e#45494#45495#0" expanded="false" />
+                <element signature="e#45520#45521#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NOTICE.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NOTICE.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="42">
-                <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
             </state>
           </provider>
         </entry>
@@ -167,192 +125,29 @@
       <file leaf-file-name="Leader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Leader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22416">
-              <caret line="990" column="14" selection-start-line="990" selection-start-column="14" selection-end-line="990" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2488#2489#0" expanded="false" />
-                <element signature="e#2578#2579#0" expanded="false" />
-                <element signature="e#4526#4527#0" expanded="false" />
-                <element signature="e#4568#4569#0" expanded="false" />
-                <element signature="e#9317#9318#0" expanded="false" />
-                <element signature="e#9398#9399#0" expanded="false" />
-                <element signature="e#10710#10711#0" expanded="false" />
-                <element signature="e#10745#10746#0" expanded="false" />
-                <element signature="e#24408#24409#0" expanded="false" />
-                <element signature="e#24471#24472#0" expanded="false" />
-                <element signature="e#24627#24628#0" expanded="false" />
-                <element signature="e#24665#24666#0" expanded="false" />
-                <element signature="e#37495#37496#0" expanded="false" />
-                <element signature="e#37552#37553#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="181" column="38" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZooKeeperServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java">
+      <file leaf-file-name="LeaderZooKeeperServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/LeaderZooKeeperServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20664">
-              <caret line="975" column="16" selection-start-line="975" selection-start-column="16" selection-end-line="975" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3272#3273#0" expanded="false" />
-                <element signature="e#3317#3318#0" expanded="false" />
-                <element signature="e#4820#4821#0" expanded="false" />
-                <element signature="e#4857#4858#0" expanded="false" />
-                <element signature="e#6816#6817#0" expanded="false" />
-                <element signature="e#6850#6851#0" expanded="false" />
-                <element signature="e#8615#8616#0" expanded="false" />
-                <element signature="e#8647#8648#0" expanded="false" />
-                <element signature="e#8788#8789#0" expanded="false" />
-                <element signature="e#8819#8820#0" expanded="false" />
-                <element signature="e#11122#11123#0" expanded="false" />
-                <element signature="e#11156#11157#0" expanded="false" />
-                <element signature="e#11182#11183#0" expanded="false" />
-                <element signature="e#11228#11229#0" expanded="false" />
-                <element signature="e#11266#11267#0" expanded="false" />
-                <element signature="e#11297#11298#0" expanded="false" />
-                <element signature="e#11319#11320#0" expanded="false" />
-                <element signature="e#11368#11369#0" expanded="false" />
-                <element signature="e#11484#11485#0" expanded="false" />
-                <element signature="e#11566#11567#0" expanded="false" />
-                <element signature="e#12755#12756#0" expanded="false" />
-                <element signature="e#12789#12790#0" expanded="false" />
-                <element signature="e#15097#15098#0" expanded="false" />
-                <element signature="e#15128#15129#0" expanded="false" />
-                <element signature="e#15372#15373#0" expanded="false" />
-                <element signature="e#15432#15433#0" expanded="false" />
-                <element signature="e#16981#16982#0" expanded="false" />
-                <element signature="e#17050#17051#0" expanded="false" />
-                <element signature="e#17084#17085#0" expanded="false" />
-                <element signature="e#17129#17130#0" expanded="false" />
-                <element signature="e#18550#18551#0" expanded="false" />
-                <element signature="e#18601#18602#0" expanded="false" />
-                <element signature="e#18635#18636#0" expanded="false" />
-                <element signature="e#18686#18687#0" expanded="false" />
-                <element signature="e#18719#18720#0" expanded="false" />
-                <element signature="e#18765#18766#0" expanded="false" />
-                <element signature="e#23886#23887#0" expanded="false" />
-                <element signature="e#23935#23936#0" expanded="false" />
-                <element signature="e#23968#23969#0" expanded="false" />
-                <element signature="e#23992#23993#0" expanded="false" />
-                <element signature="e#26929#26930#0" expanded="false" />
-                <element signature="e#26972#26973#0" expanded="false" />
-                <element signature="e#27027#27028#0" expanded="false" />
-                <element signature="e#27067#27068#0" expanded="false" />
-                <element signature="e#27187#27188#0" expanded="false" />
-                <element signature="e#27245#27246#0" expanded="false" />
-                <element signature="e#27405#27406#0" expanded="false" />
-                <element signature="e#27442#27443#0" expanded="false" />
-                <element signature="e#27779#27780#0" expanded="false" />
-                <element signature="e#27810#27811#0" expanded="false" />
-                <element signature="e#27985#27986#0" expanded="false" />
-                <element signature="e#28066#28067#0" expanded="false" />
-                <element signature="e#28253#28254#0" expanded="false" />
-                <element signature="e#28335#28336#0" expanded="false" />
-                <element signature="e#28515#28516#0" expanded="false" />
-                <element signature="e#28603#28604#0" expanded="false" />
-                <element signature="e#28662#28663#0" expanded="false" />
-                <element signature="e#28705#28706#0" expanded="false" />
-                <element signature="e#28757#28758#0" expanded="false" />
-                <element signature="e#28798#28799#0" expanded="false" />
-                <element signature="e#28830#28831#0" expanded="false" />
-                <element signature="e#28865#28866#0" expanded="false" />
-                <element signature="e#28920#28921#0" expanded="false" />
-                <element signature="e#28961#28962#0" expanded="false" />
-                <element signature="e#29114#29115#0" expanded="false" />
-                <element signature="e#29179#29180#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZKDatabase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZKDatabase.java">
+      <file leaf-file-name="ProposalRequestProcessor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/ProposalRequestProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3816">
-              <caret line="223" column="28" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3863#3864#0" expanded="false" />
-                <element signature="e#3897#3898#0" expanded="false" />
-                <element signature="e#4687#4688#0" expanded="false" />
-                <element signature="e#4723#4724#0" expanded="false" />
-                <element signature="e#4879#4880#0" expanded="false" />
-                <element signature="e#4917#4918#0" expanded="false" />
-                <element signature="e#5134#5135#0" expanded="false" />
-                <element signature="e#5172#5173#0" expanded="false" />
-                <element signature="e#5486#5487#0" expanded="false" />
-                <element signature="e#5516#5517#0" expanded="false" />
-                <element signature="e#6157#6158#0" expanded="false" />
-                <element signature="e#6206#6207#0" expanded="false" />
-                <element signature="e#6365#6366#0" expanded="false" />
-                <element signature="e#6405#6406#0" expanded="false" />
-                <element signature="e#6551#6552#0" expanded="false" />
-                <element signature="e#6596#6597#0" expanded="false" />
-                <element signature="e#6775#6776#0" expanded="false" />
-                <element signature="e#6818#6819#0" expanded="false" />
-                <element signature="e#9204#9205#0" expanded="false" />
-                <element signature="e#9245#9246#0" expanded="false" />
-                <element signature="e#9402#9403#0" expanded="false" />
-                <element signature="e#9443#9444#0" expanded="false" />
-                <element signature="e#9669#9670#0" expanded="false" />
-                <element signature="e#9722#9723#0" expanded="false" />
-                <element signature="e#9901#9902#0" expanded="false" />
-                <element signature="e#9949#9950#0" expanded="false" />
-                <element signature="e#10078#10079#0" expanded="false" />
-                <element signature="e#10124#10125#0" expanded="false" />
-                <element signature="e#10351#10352#0" expanded="false" />
-                <element signature="e#10407#10408#0" expanded="false" />
-                <element signature="e#10580#10581#0" expanded="false" />
-                <element signature="e#10629#10630#0" expanded="false" />
-                <element signature="e#10945#10946#0" expanded="false" />
-                <element signature="e#10997#10998#0" expanded="false" />
-                <element signature="e#11591#11592#0" expanded="false" />
-                <element signature="e#11634#11635#0" expanded="false" />
-                <element signature="e#13686#13687#0" expanded="false" />
-                <element signature="e#13737#13738#0" expanded="false" />
-                <element signature="e#13868#13869#0" expanded="false" />
-                <element signature="e#13914#13915#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileTxnSnapLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3048">
-              <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3537#3538#0" expanded="false" />
-                <element signature="e#3572#3573#0" expanded="false" />
-                <element signature="e#3714#3715#0" expanded="false" />
-                <element signature="e#3749#3750#0" expanded="false" />
-                <element signature="e#10801#10802#0" expanded="false" />
-                <element signature="e#10873#10874#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileSnap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2214#2215#0" expanded="false" />
-                <element signature="e#2252#2253#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="202">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -400,6 +195,9 @@
       <find>lookForLeader</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
       <map>
@@ -423,7 +221,6 @@
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/util/TestSuperClass.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumCnxManager.java" />
         <option value="$PROJECT_DIR$/conf/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/jute/BinaryInputArchive.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/Util.java" />
@@ -441,21 +238,23 @@
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/FastLeaderElection.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServerMain.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxnFactory.java" />
-        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerConfig.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerMain.java" />
-        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java" />
         <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxnFactory.java" />
-        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxn.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java" />
+        <option value="$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -565,12 +364,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -925,7 +724,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1020,104 +819,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/LeaderZooKeeperServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/FollowerZooKeeperServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2328">
-          <caret line="128" column="29" selection-start-line="128" selection-start-column="29" selection-end-line="128" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/SessionTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Learner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11088">
-          <caret line="512" column="40" selection-start-line="512" selection-start-column="40" selection-end-line="512" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/packages/deb/zookeeper.control/postinst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c/src/zk_hashtable.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recipes/election/src/java/org/apache/zookeeper/recipes/leader/LeaderElectionSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2904">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/generated/org/apache/zookeeper/proto/ExistsRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/LearnerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12336">
-          <caret line="569" column="12" selection-start-line="569" selection-start-column="12" selection-end-line="569" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/FastLeaderElection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23928">
-          <caret line="1038" column="49" selection-start-line="1038" selection-start-column="49" selection-end-line="1038" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/Environment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/auth/SaslServerCallbackHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ConnectionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NettyServerCnxnFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -1132,24 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServerListenerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1164,27 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/DataTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4104">
-          <caret line="239" column="23" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/zookeeper-3.4.9.jar!/org/apache/zookeeper/proto/RequestHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/zookeeper-3.4.9.jar!/org/apache/zookeeper/proto/ConnectRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1216,20 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumZooKeeperServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/ReadOnlyZooKeeperServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Follower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1094">
@@ -1258,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="158" column="22" selection-start-line="158" selection-start-column="22" selection-end-line="158" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/SessionTrackerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -1272,227 +917,227 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/compileAndRunInClusterMode.sh" />
+    <entry file="file://$PROJECT_DIR$/compileAndRunInStandloneMode.sh" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NOTICE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxnFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="84" column="35" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxnFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="251" column="32" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7728">
-          <caret line="371" column="28" selection-start-line="371" selection-start-column="17" selection-end-line="371" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20664">
-          <caret line="975" column="16" selection-start-line="975" selection-start-column="16" selection-end-line="975" selection-end-column="16" />
+        <state relative-caret-position="144">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3272#3273#0" expanded="false" />
-            <element signature="e#3317#3318#0" expanded="false" />
-            <element signature="e#4820#4821#0" expanded="false" />
-            <element signature="e#4857#4858#0" expanded="false" />
-            <element signature="e#6816#6817#0" expanded="false" />
-            <element signature="e#6850#6851#0" expanded="false" />
-            <element signature="e#8615#8616#0" expanded="false" />
-            <element signature="e#8647#8648#0" expanded="false" />
-            <element signature="e#8788#8789#0" expanded="false" />
-            <element signature="e#8819#8820#0" expanded="false" />
-            <element signature="e#11122#11123#0" expanded="false" />
-            <element signature="e#11156#11157#0" expanded="false" />
-            <element signature="e#11182#11183#0" expanded="false" />
-            <element signature="e#11228#11229#0" expanded="false" />
-            <element signature="e#11266#11267#0" expanded="false" />
-            <element signature="e#11297#11298#0" expanded="false" />
-            <element signature="e#11319#11320#0" expanded="false" />
-            <element signature="e#11368#11369#0" expanded="false" />
-            <element signature="e#11484#11485#0" expanded="false" />
-            <element signature="e#11566#11567#0" expanded="false" />
-            <element signature="e#12755#12756#0" expanded="false" />
-            <element signature="e#12789#12790#0" expanded="false" />
-            <element signature="e#15097#15098#0" expanded="false" />
-            <element signature="e#15128#15129#0" expanded="false" />
-            <element signature="e#15372#15373#0" expanded="false" />
-            <element signature="e#15432#15433#0" expanded="false" />
-            <element signature="e#16981#16982#0" expanded="false" />
-            <element signature="e#17050#17051#0" expanded="false" />
-            <element signature="e#17084#17085#0" expanded="false" />
-            <element signature="e#17129#17130#0" expanded="false" />
-            <element signature="e#18550#18551#0" expanded="false" />
-            <element signature="e#18601#18602#0" expanded="false" />
-            <element signature="e#18635#18636#0" expanded="false" />
-            <element signature="e#18686#18687#0" expanded="false" />
-            <element signature="e#18719#18720#0" expanded="false" />
-            <element signature="e#18765#18766#0" expanded="false" />
-            <element signature="e#23886#23887#0" expanded="false" />
-            <element signature="e#23935#23936#0" expanded="false" />
-            <element signature="e#23968#23969#0" expanded="false" />
-            <element signature="e#23992#23993#0" expanded="false" />
-            <element signature="e#26929#26930#0" expanded="false" />
-            <element signature="e#26972#26973#0" expanded="false" />
-            <element signature="e#27027#27028#0" expanded="false" />
-            <element signature="e#27067#27068#0" expanded="false" />
-            <element signature="e#27187#27188#0" expanded="false" />
-            <element signature="e#27245#27246#0" expanded="false" />
-            <element signature="e#27405#27406#0" expanded="false" />
-            <element signature="e#27442#27443#0" expanded="false" />
-            <element signature="e#27779#27780#0" expanded="false" />
-            <element signature="e#27810#27811#0" expanded="false" />
-            <element signature="e#27985#27986#0" expanded="false" />
-            <element signature="e#28066#28067#0" expanded="false" />
-            <element signature="e#28253#28254#0" expanded="false" />
-            <element signature="e#28335#28336#0" expanded="false" />
-            <element signature="e#28515#28516#0" expanded="false" />
-            <element signature="e#28603#28604#0" expanded="false" />
-            <element signature="e#28662#28663#0" expanded="false" />
-            <element signature="e#28705#28706#0" expanded="false" />
-            <element signature="e#28757#28758#0" expanded="false" />
-            <element signature="e#28798#28799#0" expanded="false" />
-            <element signature="e#28830#28831#0" expanded="false" />
-            <element signature="e#28865#28866#0" expanded="false" />
-            <element signature="e#28920#28921#0" expanded="false" />
-            <element signature="e#28961#28962#0" expanded="false" />
-            <element signature="e#29114#29115#0" expanded="false" />
-            <element signature="e#29179#29180#0" expanded="false" />
+            <element signature="e#4783#4795#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Leader.java">
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NettyServerCnxn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22416">
-          <caret line="990" column="14" selection-start-line="990" selection-start-column="14" selection-end-line="990" selection-end-column="14" />
+        <state relative-caret-position="72">
+          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/LearnerZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/ReadOnlyZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/ObserverZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/FollowerZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="imports" expanded="false" />
-            <element signature="e#2488#2489#0" expanded="false" />
-            <element signature="e#2578#2579#0" expanded="false" />
-            <element signature="e#4526#4527#0" expanded="false" />
-            <element signature="e#4568#4569#0" expanded="false" />
-            <element signature="e#9317#9318#0" expanded="false" />
-            <element signature="e#9398#9399#0" expanded="false" />
-            <element signature="e#10710#10711#0" expanded="false" />
-            <element signature="e#10745#10746#0" expanded="false" />
-            <element signature="e#24408#24409#0" expanded="false" />
-            <element signature="e#24471#24472#0" expanded="false" />
-            <element signature="e#24627#24628#0" expanded="false" />
-            <element signature="e#24665#24666#0" expanded="false" />
-            <element signature="e#37495#37496#0" expanded="false" />
-            <element signature="e#37552#37553#0" expanded="false" />
+            <element signature="e#2507#2508#0" expanded="false" />
+            <element signature="e#2543#2544#0" expanded="false" />
+            <element signature="e#5100#5101#0" expanded="false" />
+            <element signature="e#5185#5186#0" expanded="false" />
+            <element signature="e#5741#5742#0" expanded="false" />
+            <element signature="e#5774#5775#0" expanded="false" />
+            <element signature="e#5823#5824#0" expanded="false" />
+            <element signature="e#5859#5860#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerMain.java">
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/DataTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3624">
-          <caret line="179" column="21" selection-start-line="179" selection-start-column="21" selection-end-line="179" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2214#2215#0" expanded="false" />
-            <element signature="e#2252#2253#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="528">
+          <caret line="1115" column="16" selection-start-line="1115" selection-start-column="16" selection-end-line="1115" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3048">
-          <caret line="165" column="18" selection-start-line="165" selection-start-column="18" selection-end-line="165" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3537#3538#0" expanded="false" />
-            <element signature="e#3572#3573#0" expanded="false" />
-            <element signature="e#3714#3715#0" expanded="false" />
-            <element signature="e#3749#3750#0" expanded="false" />
-            <element signature="e#10801#10802#0" expanded="false" />
-            <element signature="e#10873#10874#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/TxnLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileTxnLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/persistence/FileSnap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/util/SerializeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZKDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3816">
-          <caret line="223" column="28" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
+        <state relative-caret-position="432">
+          <caret line="223" column="30" selection-start-line="223" selection-start-column="30" selection-end-line="223" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="179" column="22" selection-start-line="179" selection-start-column="22" selection-end-line="179" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zookeeper-3.4.9.jar!/org/apache/zookeeper/proto/ConnectRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zookeeper-3.4.9.jar!/org/apache/zookeeper/proto/AuthPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/zookeeper-3.4.9.jar!/org/apache/zookeeper/proto/RequestHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ByteBufferInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3863#3864#0" expanded="false" />
-            <element signature="e#3897#3898#0" expanded="false" />
-            <element signature="e#4687#4688#0" expanded="false" />
-            <element signature="e#4723#4724#0" expanded="false" />
-            <element signature="e#4879#4880#0" expanded="false" />
-            <element signature="e#4917#4918#0" expanded="false" />
-            <element signature="e#5134#5135#0" expanded="false" />
-            <element signature="e#5172#5173#0" expanded="false" />
-            <element signature="e#5486#5487#0" expanded="false" />
-            <element signature="e#5516#5517#0" expanded="false" />
-            <element signature="e#6157#6158#0" expanded="false" />
-            <element signature="e#6206#6207#0" expanded="false" />
-            <element signature="e#6365#6366#0" expanded="false" />
-            <element signature="e#6405#6406#0" expanded="false" />
-            <element signature="e#6551#6552#0" expanded="false" />
-            <element signature="e#6596#6597#0" expanded="false" />
-            <element signature="e#6775#6776#0" expanded="false" />
-            <element signature="e#6818#6819#0" expanded="false" />
-            <element signature="e#9204#9205#0" expanded="false" />
-            <element signature="e#9245#9246#0" expanded="false" />
-            <element signature="e#9402#9403#0" expanded="false" />
-            <element signature="e#9443#9444#0" expanded="false" />
-            <element signature="e#9669#9670#0" expanded="false" />
-            <element signature="e#9722#9723#0" expanded="false" />
-            <element signature="e#9901#9902#0" expanded="false" />
-            <element signature="e#9949#9950#0" expanded="false" />
-            <element signature="e#10078#10079#0" expanded="false" />
-            <element signature="e#10124#10125#0" expanded="false" />
-            <element signature="e#10351#10352#0" expanded="false" />
-            <element signature="e#10407#10408#0" expanded="false" />
-            <element signature="e#10580#10581#0" expanded="false" />
-            <element signature="e#10629#10630#0" expanded="false" />
-            <element signature="e#10945#10946#0" expanded="false" />
-            <element signature="e#10997#10998#0" expanded="false" />
-            <element signature="e#11591#11592#0" expanded="false" />
-            <element signature="e#11634#11635#0" expanded="false" />
-            <element signature="e#13686#13687#0" expanded="false" />
-            <element signature="e#13737#13738#0" expanded="false" />
-            <element signature="e#13868#13869#0" expanded="false" />
-            <element signature="e#13914#13915#0" expanded="false" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compileAndRunInClusterMode.sh" />
-    <entry file="file://$PROJECT_DIR$/compileAndRunInStandloneMode.sh" />
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/ZooDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumPeer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12456">
-          <caret line="586" column="23" selection-start-line="586" selection-start-column="23" selection-end-line="586" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="559" column="24" selection-start-line="559" selection-start-column="24" selection-end-line="559" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
             <element signature="imports" expanded="false" />
@@ -1518,101 +1163,143 @@
             <element signature="e#15001#15002#0" expanded="false" />
             <element signature="e#16851#16852#0" expanded="false" />
             <element signature="e#16885#16886#0" expanded="false" />
-            <element signature="e#27263#27264#0" expanded="false" />
-            <element signature="e#27295#27296#0" expanded="false" />
-            <element signature="e#27363#27364#0" expanded="false" />
-            <element signature="e#27399#27400#0" expanded="false" />
-            <element signature="e#27471#27472#0" expanded="false" />
-            <element signature="e#27507#27508#0" expanded="false" />
-            <element signature="e#37542#37543#0" expanded="false" />
-            <element signature="e#37610#37611#0" expanded="false" />
-            <element signature="e#38968#38969#0" expanded="false" />
-            <element signature="e#39024#39025#0" expanded="false" />
-            <element signature="e#40342#40343#0" expanded="false" />
-            <element signature="e#40369#40370#0" expanded="false" />
-            <element signature="e#40462#40463#0" expanded="false" />
-            <element signature="e#40494#40495#0" expanded="false" />
-            <element signature="e#40593#40594#0" expanded="false" />
-            <element signature="e#40624#40625#0" expanded="false" />
-            <element signature="e#41204#41205#0" expanded="false" />
-            <element signature="e#41285#41286#0" expanded="false" />
-            <element signature="e#41574#41575#0" expanded="false" />
-            <element signature="e#41656#41657#0" expanded="false" />
-            <element signature="e#41981#41982#0" expanded="false" />
-            <element signature="e#42013#42014#0" expanded="false" />
-            <element signature="e#42320#42321#0" expanded="false" />
-            <element signature="e#42347#42348#0" expanded="false" />
-            <element signature="e#42569#42570#0" expanded="false" />
-            <element signature="e#42616#42617#0" expanded="false" />
-            <element signature="e#42725#42726#0" expanded="false" />
-            <element signature="e#42759#42760#0" expanded="false" />
-            <element signature="e#42841#42842#0" expanded="false" />
-            <element signature="e#42873#42874#0" expanded="false" />
-            <element signature="e#42961#42962#0" expanded="false" />
-            <element signature="e#43003#43004#0" expanded="false" />
-            <element signature="e#43675#43676#0" expanded="false" />
-            <element signature="e#43721#43722#0" expanded="false" />
-            <element signature="e#43803#43804#0" expanded="false" />
-            <element signature="e#43838#43839#0" expanded="false" />
-            <element signature="e#43937#43938#0" expanded="false" />
-            <element signature="e#43985#43986#0" expanded="false" />
-            <element signature="e#44033#44034#0" expanded="false" />
-            <element signature="e#44076#44077#0" expanded="false" />
-            <element signature="e#44262#44263#0" expanded="false" />
-            <element signature="e#44296#44297#0" expanded="false" />
-            <element signature="e#44361#44362#0" expanded="false" />
-            <element signature="e#44407#44408#0" expanded="false" />
-            <element signature="e#44477#44478#0" expanded="false" />
-            <element signature="e#44523#44524#0" expanded="false" />
-            <element signature="e#44557#44558#0" expanded="false" />
-            <element signature="e#44606#44607#0" expanded="false" />
-            <element signature="e#44734#44735#0" expanded="false" />
-            <element signature="e#44775#44776#0" expanded="false" />
-            <element signature="e#44824#44825#0" expanded="false" />
-            <element signature="e#44862#44863#0" expanded="false" />
-            <element signature="e#44992#44993#0" expanded="false" />
-            <element signature="e#45028#45029#0" expanded="false" />
-            <element signature="e#45075#45076#0" expanded="false" />
-            <element signature="e#45113#45114#0" expanded="false" />
-            <element signature="e#45147#45148#0" expanded="false" />
-            <element signature="e#45177#45178#0" expanded="false" />
-            <element signature="e#45287#45288#0" expanded="false" />
-            <element signature="e#45313#45314#0" expanded="false" />
+            <element signature="e#27470#27471#0" expanded="false" />
+            <element signature="e#27502#27503#0" expanded="false" />
+            <element signature="e#27570#27571#0" expanded="false" />
+            <element signature="e#27606#27607#0" expanded="false" />
+            <element signature="e#27678#27679#0" expanded="false" />
+            <element signature="e#27714#27715#0" expanded="false" />
+            <element signature="e#37749#37750#0" expanded="false" />
+            <element signature="e#37817#37818#0" expanded="false" />
+            <element signature="e#39175#39176#0" expanded="false" />
+            <element signature="e#39231#39232#0" expanded="false" />
+            <element signature="e#40549#40550#0" expanded="false" />
+            <element signature="e#40576#40577#0" expanded="false" />
+            <element signature="e#40669#40670#0" expanded="false" />
+            <element signature="e#40701#40702#0" expanded="false" />
+            <element signature="e#40800#40801#0" expanded="false" />
+            <element signature="e#40831#40832#0" expanded="false" />
+            <element signature="e#41411#41412#0" expanded="false" />
+            <element signature="e#41492#41493#0" expanded="false" />
+            <element signature="e#41781#41782#0" expanded="false" />
+            <element signature="e#41863#41864#0" expanded="false" />
+            <element signature="e#42188#42189#0" expanded="false" />
+            <element signature="e#42220#42221#0" expanded="false" />
+            <element signature="e#42527#42528#0" expanded="false" />
+            <element signature="e#42554#42555#0" expanded="false" />
+            <element signature="e#42776#42777#0" expanded="false" />
+            <element signature="e#42823#42824#0" expanded="false" />
+            <element signature="e#42932#42933#0" expanded="false" />
+            <element signature="e#42966#42967#0" expanded="false" />
+            <element signature="e#43048#43049#0" expanded="false" />
+            <element signature="e#43080#43081#0" expanded="false" />
+            <element signature="e#43168#43169#0" expanded="false" />
+            <element signature="e#43210#43211#0" expanded="false" />
+            <element signature="e#43882#43883#0" expanded="false" />
+            <element signature="e#43928#43929#0" expanded="false" />
+            <element signature="e#44010#44011#0" expanded="false" />
+            <element signature="e#44045#44046#0" expanded="false" />
+            <element signature="e#44144#44145#0" expanded="false" />
+            <element signature="e#44192#44193#0" expanded="false" />
+            <element signature="e#44240#44241#0" expanded="false" />
+            <element signature="e#44283#44284#0" expanded="false" />
+            <element signature="e#44469#44470#0" expanded="false" />
+            <element signature="e#44503#44504#0" expanded="false" />
+            <element signature="e#44568#44569#0" expanded="false" />
+            <element signature="e#44614#44615#0" expanded="false" />
+            <element signature="e#44684#44685#0" expanded="false" />
+            <element signature="e#44730#44731#0" expanded="false" />
+            <element signature="e#44764#44765#0" expanded="false" />
+            <element signature="e#44813#44814#0" expanded="false" />
+            <element signature="e#44941#44942#0" expanded="false" />
+            <element signature="e#44982#44983#0" expanded="false" />
+            <element signature="e#45199#45200#0" expanded="false" />
+            <element signature="e#45235#45236#0" expanded="false" />
+            <element signature="e#45282#45283#0" expanded="false" />
+            <element signature="e#45320#45321#0" expanded="false" />
+            <element signature="e#45354#45355#0" expanded="false" />
+            <element signature="e#45384#45385#0" expanded="false" />
+            <element signature="e#45494#45495#0" expanded="false" />
+            <element signature="e#45520#45521#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NOTICE.txt">
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ZooKeeperServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="419" column="21" selection-start-line="419" selection-start-column="21" selection-end-line="419" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/Leader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="24">
+          <caret line="181" column="38" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="42">
-            <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/RequestProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#1457#1484#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/PrepRequestProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="527" column="19" selection-start-line="527" selection-start-column="19" selection-end-line="527" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="339" column="39" selection-start-line="339" selection-start-column="39" selection-end-line="339" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/ServerCnxn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="427" column="14" selection-start-line="427" selection-start-column="9" selection-end-line="427" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/NIOServerCnxnFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="247" column="20" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/LeaderZooKeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/ProposalRequestProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>

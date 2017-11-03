@@ -720,6 +720,12 @@ public class ZooKeeperServer implements SessionExpirer, ServerStats.Provider {
             }
         }
         try {
+            /**
+             *
+             * Reading:
+             *  Add session to {@link SessionTracker}
+             *
+             * */
             touch(si.cnxn);
             boolean validpacket = Request.isValid(si.type);
             if (validpacket) {
@@ -917,6 +923,12 @@ public class ZooKeeperServer implements SessionExpirer, ServerStats.Provider {
         // We don't want to receive any packets until we are sure that the
         // session is setup
         cnxn.disableRecv();
+        /**
+         *
+         * Reading:
+         *  FIXME:// The session id comes from client, so how to make sure client generate un-conflict session id?
+         *
+         * */
         long sessionId = connReq.getSessionId();
         if (sessionId != 0) {
             /**

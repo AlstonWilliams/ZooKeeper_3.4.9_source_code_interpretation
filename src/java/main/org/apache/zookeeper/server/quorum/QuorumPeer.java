@@ -514,7 +514,7 @@ public class QuorumPeer extends ZooKeeperThread implements QuorumStats.Provider 
          *
          * */
         loadDataBase();
-
+        
         /**
          *
          * Reading:
@@ -541,6 +541,12 @@ public class QuorumPeer extends ZooKeeperThread implements QuorumStats.Provider 
     }
 
     private void loadDataBase() {
+        /**
+         *
+         * Reading:
+         *  Create a temp file which represents that server terminates after generating Snapshot but before updating current epoch
+         *
+         * */
         File updating = new File(getTxnFactory().getSnapDir(),
                                  UPDATING_EPOCH_FILENAME);
 		try {

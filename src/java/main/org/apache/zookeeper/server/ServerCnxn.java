@@ -227,6 +227,15 @@ public abstract class ServerCnxn implements Stats, Watcher {
     protected final static int isroCmd = ByteBuffer.wrap("isro".getBytes())
             .getInt();
 
+    /**
+     *
+     * Reading:
+     *  The key of {@link #cmd2String} is an integer which is correspond to the string of command.
+     *  For example, command `ruok` 's integer may be 1, command 'conf' 's integer may be 2.
+     *  So, we can judge different command by this integer.
+     *  But what we should notice is that, may be these integers conflict with each other?
+     *
+     * */
     protected final static HashMap<Integer, String> cmd2String =
         new HashMap<Integer, String>();
 
@@ -250,6 +259,14 @@ public abstract class ServerCnxn implements Stats, Watcher {
         cmd2String.put(isroCmd, "isro");
     }
 
+    /**
+     *
+     * Reading:
+     *  What's the fuck?
+     *  This function's is used to increment the packets received.
+     *  But this function's name is so confusing.
+     *
+     * */
     protected void packetReceived() {
         incrPacketsReceived();
         ServerStats serverStats = serverStats();

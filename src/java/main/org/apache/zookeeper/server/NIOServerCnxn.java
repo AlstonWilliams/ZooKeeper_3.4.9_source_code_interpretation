@@ -97,7 +97,7 @@ public class NIOServerCnxn extends ServerCnxn {
         if (this.factory.login != null) {
             this.zooKeeperSaslServer = new ZooKeeperSaslServer(factory.login);
         }
-        if (zk != null) { 
+        if (zk != null) {
             outstandingLimit = zk.getGlobalOutstandingLimit();
         }
         sock.socket().setTcpNoDelay(true);
@@ -125,7 +125,7 @@ public class NIOServerCnxn extends ServerCnxn {
     void sendBufferSync(ByteBuffer bb) {
        try {
            /* configure socket to be blocking
-            * so that we dont have to do write in 
+            * so that we dont have to do write in
             * a tight while loop
             */
            sock.configureBlocking(true);
@@ -134,12 +134,12 @@ public class NIOServerCnxn extends ServerCnxn {
                    sock.write(bb);
                }
                packetSent();
-           } 
+           }
        } catch (IOException ie) {
            LOG.error("Error sending data synchronously ", ie);
        }
     }
-    
+
     public void sendBuffer(ByteBuffer bb) {
         try {
             if (bb != ServerCnxnFactory.closeConn) {
@@ -171,7 +171,7 @@ public class NIOServerCnxn extends ServerCnxn {
                     sk.interestOps(sk.interestOps() | SelectionKey.OP_WRITE);
                 }
             }
-            
+
         } catch(Exception e) {
             LOG.error("Unexpected Exception: ", e);
         }
@@ -180,6 +180,12 @@ public class NIOServerCnxn extends ServerCnxn {
     /** Read the request payload (everything following the length prefix) */
     private void readPayload() throws IOException, InterruptedException {
         if (incomingBuffer.remaining() != 0) { // have we read length bytes?
+            /**
+             *
+             * Reading:
+             *  Yeah, we have already read length bytes.
+             *
+             * */
             int rc = sock.read(incomingBuffer); // sock is non-blocking, so ok
             if (rc < 0) {
                 throw new EndOfStreamException(
@@ -193,6 +199,16 @@ public class NIOServerCnxn extends ServerCnxn {
             packetReceived();
             incomingBuffer.flip();
             if (!initialized) {
+                /**
+                 *
+                 * Reading:
+                 *  Initialization has not finished.
+                 *  So treat the request as `connect request`
+                 *
+                 *  FIXME:// But does the request is `connect request` necessarily?
+                 *
+                 *
+                 * */
                 readConnectRequest();
             } else {
                 readRequest();
@@ -230,8 +246,26 @@ public class NIOServerCnxn extends ServerCnxn {
                             + ", likely client has closed socket");
                 }
                 if (incomingBuffer.remaining() == 0) {
+                    /**
+                     *
+                     * Reading:
+                     *  If {@link incomingBuffer} is full
+                     *
+                     * */
                     boolean isPayload;
                     if (incomingBuffer == lenBuffer) { // start of next request
+                        /**
+                         *
+                         * Reading:
+                         *  If client execute monitor command, {@link incomingBuffer} will always be same as {@link lenBuffer}
+                         *  see {@link #readLength(SelectionKey)} for detail.
+                         *
+                         *  So, this if block and method {@link #readLength(SelectionKey)} is used to check whether client executes monitor command.
+                         *
+                         *  But it is so complexity, right?
+                         *  Why we need these obscure code to do this simple work?
+                         *
+                         * */
                         incomingBuffer.flip();
                         isPayload = readLength(k);
                         incomingBuffer.clear();
@@ -240,6 +274,12 @@ public class NIOServerCnxn extends ServerCnxn {
                         isPayload = true;
                     }
                     if (isPayload) { // not the case for 4letterword
+                        /**
+                         *
+                         * Reading:
+                         *  Handle others command exclude monitor command
+                         *
+                         * */
                         readPayload();
                     }
                     else {
@@ -415,6 +455,13 @@ public class NIOServerCnxn extends ServerCnxn {
             throw new IOException("ZooKeeperServer not running");
         }
         zkServer.processConnectRequest(this, incomingBuffer);
+        /**
+         *
+         * Reading:
+         *  FIXME:// Why mark the server as `initialized` after process connect request?
+         *
+         *
+         * */
         initialized = true;
     }
 
@@ -820,6 +867,13 @@ public class NIOServerCnxn extends ServerCnxn {
     }
 
     /** Return if four letter word found and responded to, otw false **/
+    /**
+     *
+     * Reading:
+     *  The name of second parameter which is 'len' is so terrible, and can be confused.
+     *  Parameter 'len' represents the content in {@link #incomingBuffer}
+     *
+     * */
     private boolean checkFourLetterWord(final SelectionKey k, final int len)
     throws IOException
     {
@@ -831,17 +885,32 @@ public class NIOServerCnxn extends ServerCnxn {
         }
         LOG.info("Processing " + cmd + " command from "
                 + sock.socket().getRemoteSocketAddress());
+        /**
+         *
+         * Reading:
+         *  Increment the packet received
+         *  The function's name is so confusing, right?
+         *
+         * */
         packetReceived();
 
         /** cancel the selection key to remove the socket handling
          * from selector. This is to prevent netcat problem wherein
          * netcat immediately closes the sending side after sending the
-         * commands and still keeps the receiving channel open. 
+         * commands and still keeps the receiving channel open.
          * The idea is to remove the selectionkey from the selector
          * so that the selector does not notice the closed read on the
          * socket channel and keep the socket alive to write the data to
          * and makes sure to close the socket after its done writing the data
          */
+        /**
+         *
+         * Reading:
+         *  Close the {@link SelectionKey}
+         *  Actually, the connection will be close after you execute one monitor command.
+         *  Type in `echo ruok | nc localhost 2181` and you will be told `The connection is closed by other servers` after server told you 'imok'
+         *
+         * */
         if (k != null) {
             try {
                 k.cancel();
@@ -850,6 +919,12 @@ public class NIOServerCnxn extends ServerCnxn {
             }
         }
 
+        /**
+         *
+         * Reading:
+         *  Told client the monitor information it needs
+         *
+         * */
         final PrintWriter pwriter = new PrintWriter(
                 new BufferedWriter(new SendBufferWriter()));
         if (len == ruokCmd) {
@@ -926,8 +1001,22 @@ public class NIOServerCnxn extends ServerCnxn {
      */
     private boolean readLength(SelectionKey k) throws IOException {
         // Read the length, now get the buffer
+        /**
+         *
+         * Reading:
+         *  If client doesn't execute monitor command, variable `len` represents the length of command body.
+         *  But if client execute monitor command, variable `len` represents the monitor command which can be represented as an integer
+         *
+         * */
         int len = lenBuffer.getInt();
         if (!initialized && checkFourLetterWord(sk, len)) {
+            /**
+             *
+             * Reading:
+             *  If client execute monitor command, {@link #checkFourLetterWord(SelectionKey, int)} always return true and {@link #readLength(SelectionKey)} return false
+             *  But if client execute others command not monitor command, {@link #checkFourLetterWord(SelectionKey, int)} may return false
+             *
+             * */
             return false;
         }
         if (len < 0 || len > BinaryInputArchive.maxBuffer) {
@@ -936,6 +1025,12 @@ public class NIOServerCnxn extends ServerCnxn {
         if (zkServer == null) {
             throw new IOException("ZooKeeperServer not running");
         }
+        /**
+         *
+         * Reading:
+         *  If client doesn't execute monitor command, {@link #incomingBuffer} will not same with {@link #lenBuffer}, and this function will return true.
+         *
+         * */
         incomingBuffer = ByteBuffer.allocate(len);
         return true;
     }
