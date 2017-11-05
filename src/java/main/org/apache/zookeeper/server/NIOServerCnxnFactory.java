@@ -32,6 +32,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.apache.zookeeper.server.util.RedStringUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -239,6 +240,7 @@ public class NIOServerCnxnFactory extends ServerCnxnFactory implements Runnable 
                          *
                          * */
                         NIOServerCnxn c = (NIOServerCnxn) k.attachment();
+
                         c.doIO(k);
                     } else {
                         if (LOG.isDebugEnabled()) {

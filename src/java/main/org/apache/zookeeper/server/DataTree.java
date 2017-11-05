@@ -1192,9 +1192,22 @@ public class DataTree {
         for (String path : dataWatches) {
             DataNode node = getNode(path);
             if (node == null) {
+                /**
+                 *
+                 * Reading:
+                 *  If the node you wanna set {@link Watcher} in doesn't exist, then told user
+                 *
+                 * */
                 watcher.process(new WatchedEvent(EventType.NodeDeleted,
                             KeeperState.SyncConnected, path));
             } else if (node.stat.getMzxid() > relativeZxid) {
+                /**
+                 *
+                 * Reading:
+                 *  If {@link relativeZxid} is less than DataNode's mzxid, then told user that the node has changed
+                 *
+                 *
+                 * */
                 watcher.process(new WatchedEvent(EventType.NodeDataChanged,
                             KeeperState.SyncConnected, path));
             } else {

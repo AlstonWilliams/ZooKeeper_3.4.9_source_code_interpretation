@@ -73,6 +73,14 @@ public class ProposalRequestProcessor implements RequestProcessor {
         } else {
                 nextProcessor.processRequest(request);
             if (request.hdr != null) {
+                /**
+                 *
+                 * Reading:
+                 *  Propose proposal to followers if request is normal operation from client
+                 *  For example, `create node, delete node`, etc.
+                 *  There are many other type requests, for example, the forward request from follower to leader.
+                 *  And these requests don't need to be proposed.
+                 * */
                 // We need to sync and get consensus on any transactions
                 try {
                     zks.getLeader().propose(request);

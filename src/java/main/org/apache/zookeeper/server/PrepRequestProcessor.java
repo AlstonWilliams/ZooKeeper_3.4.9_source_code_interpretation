@@ -143,6 +143,13 @@ public class PrepRequestProcessor extends ZooKeeperCriticalThread implements
         LOG.info("PrepRequestProcessor exited loop!");
     }
 
+    /**
+     *
+     * Reading:
+     *  Get the {@link ChangeRecord} which represents corresponding DataNode of that path
+     *  The reason that we package it into {@link ChangeRecord} is that the Record need to be transferred between {@link PrepRequestProcessor} and {@link FinalRequestProcessor}
+     *
+     * */
     ChangeRecord getRecordForPath(String path) throws KeeperException.NoNodeException {
         ChangeRecord lastChange = null;
         synchronized (zks.outstandingChanges) {
@@ -335,22 +342,65 @@ public class PrepRequestProcessor extends ZooKeeperCriticalThread implements
                     throw new KeeperException.BadArgumentsException(path);
                 }
                 List<ACL> listACL = removeDuplicates(createRequest.getAcl());
+                /**
+                 *
+                 * Reading:
+                 *  Checkout whether the client has permission to set ACL
+                 *
+                 * */
                 if (!fixupACL(request.authInfo, listACL)) {
                     throw new KeeperException.InvalidACLException(path);
                 }
                 String parentPath = path.substring(0, lastSlash);
                 ChangeRecord parentRecord = getRecordForPath(parentPath);
 
+                /**
+                 *
+                 * Reading:
+                 *  Check whether we have permission that create node under that parent node.
+                 *
+                 * */
                 checkACL(zks, parentRecord.acl, ZooDefs.Perms.CREATE,
                         request.authInfo);
+
+                /**
+                 *
+                 * Reading:
+                 *  `cversion` represents number of changes to the children of a znode
+                 *
+                 * */
                 int parentCVersion = parentRecord.stat.getCversion();
+
+                /**
+                 *
+                 * Reading:
+                 *  Determine DataNode's type by {@link CreateRequest} 's flag
+                 *  DataNode's type can be these types:
+                 *      - PERSISTENT
+                 *      - PERSISTENT_SEQUENTIAL
+                 *      - EPHEMERAL
+                 *      - EPHEMERAL_SEQUENTIAL
+                 *
+                 * */
                 CreateMode createMode =
                     CreateMode.fromFlag(createRequest.getFlags());
                 if (createMode.isSequential()) {
+                    /**
+                     *
+                     * Reading:
+                     *  Create sequential node if client wanna create a DataNode whose type is sequential, regardless of {@link CreateMode.PERSISTENT_SEQUENTIAL} or {@link CreateMode.EPHEMERAL_SEQUENTIAL}
+                     *
+                     * */
                     path = path + String.format(Locale.ENGLISH, "%010d", parentCVersion);
                 }
                 validatePath(path, request.sessionId);
                 try {
+                    /**
+                     *
+                     * Reading:
+                     *  Check out whether the DataNode has existed
+                     *
+                     * */
                     if (getRecordForPath(path) != null) {
                         throw new KeeperException.NodeExistsException(path);
                     }
@@ -362,13 +412,31 @@ public class PrepRequestProcessor extends ZooKeeperCriticalThread implements
                     throw new KeeperException.NoChildrenForEphemeralsException(path);
                 }
                 int newCversion = parentRecord.stat.getCversion()+1;
+                /**
+                 *
+                 * Reading:
+                 *  Build a {@link CreateTxn} which can be used to recovery from failure.
+                 *
+                 * */
                 request.txn = new CreateTxn(path, createRequest.getData(),
                         listACL,
                         createMode.isEphemeral(), newCversion);
                 StatPersisted s = new StatPersisted();
                 if (createMode.isEphemeral()) {
+                    /**
+                     *
+                     * Reading:
+                     *  If the {@link DataNode} is ephemeral node, then set owner for it to clear it when connection closes
+                     *
+                     * */
                     s.setEphemeralOwner(request.sessionId);
                 }
+                /**
+                 *
+                 * Reading:
+                 *  Save {@link parentRecord}
+                 *
+                 * */
                 parentRecord = parentRecord.duplicate(request.hdr.getZxid());
                 parentRecord.childCount++;
                 parentRecord.stat.setCversion(newCversion);
@@ -677,6 +745,13 @@ public class PrepRequestProcessor extends ZooKeeperCriticalThread implements
         nextProcessor.processRequest(request);
     }
 
+    /**
+     *
+     * Reading:
+     *  Remove the duplicate entry in parameter `acl`
+     *
+     *
+     * */
     private List<ACL> removeDuplicates(List<ACL> acl) {
 
         ArrayList<ACL> retval = new ArrayList<ACL>();
@@ -700,6 +775,12 @@ public class PrepRequestProcessor extends ZooKeeperCriticalThread implements
      * @param acl list of ACLs being assigned to the node (create or setACL operation)
      * @return
      */
+    /**
+     *
+     * Reading:
+     *  Look <a href="https://zookeeper.apache.org/doc/r3.1.2/zookeeperProgrammers.html#sc_ZooKeeperAccessControl"/> for detail about `Builtin ACL Schemes`
+     *
+     * */
     private boolean fixupACL(List<Id> authInfo, List<ACL> acl) {
         if (skipACL) {
             return true;
