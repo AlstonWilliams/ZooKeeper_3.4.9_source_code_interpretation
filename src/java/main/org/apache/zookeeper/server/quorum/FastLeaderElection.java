@@ -975,6 +975,8 @@ public class FastLeaderElection implements Election {
                                  * Reading:
                                  *  Oh, my god, vote for myself continually.
                                  *
+                                 *  FIXME:// Why vote for myself but not one I think is more suitable to be leader?
+                                 *
                                  * */
                                 updateProposal(getInitId(),
                                         getInitLastLoggedZxid(),
@@ -1023,8 +1025,7 @@ public class FastLeaderElection implements Election {
                         /**
                          *
                          * Reading:
-                         *  Why here vote for that server?
-                         *  I am more suitable for being leader sometimes, what is it vote for that server?
+                         *  Add the notification to {@link recvset} which represents handled notification.
                          *
                          *
                          * */
@@ -1105,6 +1106,9 @@ public class FastLeaderElection implements Election {
                          *
                          * Reading:
                          *  The server has been partitioned for one epoch and now recovery.
+                         *  Or this server has became leader in the cluster but it doesn't know.
+                         *  Because the state of server is self-detect.
+                         *  So, maybe some servers think I am leader but I have not realized this fact.
                          *
                          * */
                         if(n.electionEpoch == logicalclock){
